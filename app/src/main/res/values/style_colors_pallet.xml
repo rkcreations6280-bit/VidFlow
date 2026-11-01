@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!-- Primary -->
+  <color name="style_color_primary">#FF8A00</color>
+  <color name="style_color_primary_variant">#F57C00</color>
+  <color name="style_color_primary_dark">#D96C00</color>
+  <color name="style_color_primary_light">#3A2508</color>
+  <color name="style_color_primary_container">#2C1E0B</color>
+
+  <!-- Secondary -->
+  <color name="style_color_secondary">#FFB74D</color>
+  <color name="style_color_secondary_variant">#FFA726</color>
+  <color name="style_color_secondary_container">#2A2117</color>
+
+  <!-- Background -->
+  <color name="style_color_background">#111111</color>
+  <color name="style_color_background_secondary">#181818</color>
+
+  <!-- Surface -->
+  <color name="style_color_surface">#1C1C1C</color>
+  <color name="style_color_surface_variant">#222222</color>
+
+  <color name="style_color_surface_1">#1C1C1C</color>
+  <color name="style_color_surface_2">#222222</color>
+  <color name="style_color_surface_3">#282828</color>
+
+  <!-- Cards -->
+  <color name="style_color_card">#202020</color>
+  <color name="style_color_card_stroke">#323232</color>
+  <color name="style_color_card_selected">#2B2118</color>
+  <color name="style_color_card_pressed">#292929</color>
+
+  <!-- Text -->
+  <color name="style_color_text_primary">#FFFFFF</color>
+  <color name="style_color_text_secondary">#B5B5B5</color>
+  <color name="style_color_text_tertiary">#909090</color>
+  <color name="style_color_text_hint">#737373</color>
+  <color name="style_color_text_disabled">#555555</color>
+  <color name="style_color_text_inverse">#111111</color>
+  <color name="style_color_text_link">#FF8A00</color>
+
+  <!-- Icons -->
+  <color name="style_color_icon">#FF8A00</color>
+  <color name="style_color_icon_primary">#FFFFFF</color>
+  <color name="style_color_icon_secondary">#A8A8A8</color>
+  <color name="style_color_icon_hint">#7A7A7A</color>
+  <color name="style_color_icon_disabled">#555555</color>
+  <color name="style_color_icon_inverse">#111111</color>
+
+  <!-- Borders -->
+  <color name="style_color_border">#343434</color>
+  <color name="style_color_border_light">#2B2B2B</color>
+  <color name="style_color_border_dark">#4A4A4A</color>
+  <color name="style_color_border_focus">#FF8A00</color>
+  <color name="style_color_border_selected">#FF8A00</color>
+
+  <!-- Inputs -->
+  <color name="style_color_input_background">#1D1D1D</color>
+  <color name="style_color_input_border">#3A3A3A</color>
+  <color name="style_color_input_border_focused">#FF8A00</color>
+  <color name="style_color_input_border_error">#EF5350</color>
+  <color name="style_color_input_hint">#808080</color>
+
+  <!-- Buttons -->
+  <color name="style_color_button_primary">#FF8A00</color>
+  <color name="style_color_button_primary_pressed">#F57C00</color>
+  <color name="style_color_button_primary_disabled">#6A4A16</color>
+  <color name="style_color_button_primary_text">#FFFFFF</color>
+
+  <color name="style_color_button_secondary">#262626</color>
+  <color name="style_color_button_secondary_pressed">#313131</color>
+  <color name="style_color_button_secondary_text">#FFFFFF</color>
+
+  <color name="style_color_button_outline">#FF8A00</color>
+  <color name="style_color_button_outline_disabled">#555555</color>
+
+  <!-- Divider -->
+  <color name="style_color_divider">#2F2F2F</color>
+  <color name="style_color_divider_light">#242424</color>
+
+  <!-- Success -->
+  <color name="style_color_success">#4CAF50</color>
+  <color name="style_color_success_container">#1D2B20</color>
+  <color name="style_color_success_text">#7CE38B</color>
+  <color name="style_color_success_border">#2E7D32</color>
+
+  <!-- Warning -->
+  <color name="style_color_warning">#FFA726</color>
+  <color name="style_color_warning_container">#33250A</color>
+  <color name="style_color_warning_text">#FFD180</color>
+  <color name="style_color_warning_border">#8A5A00</color>
+
+  <!-- Error -->
+  <color name="style_color_error">#EF5350</color>
+  <color name="style_color_error_container">#351A1A</color>
+  <color name="style_color_error_text">#FF6B5E</color>
+  <color name="style_color_error_border">#8A2B2B</color>
+
+  <!-- Info -->
+  <color name="style_color_info">#42A5F5</color>
+  <color name="style_color_info_container">#172433</color>
+  <color name="style_color_info_text">#90CAF9</color>
+  <color name="style_color_info_border">#1E5D91</color>
+
+  <!-- Chips -->
+  <color name="style_color_chip_background">#262626</color>
+  <color name="style_color_chip_selected">#33250A</color>
+  <color name="style_color_chip_text">#FFB74D</color>
+
+  <!-- Badge -->
+  <color name="style_color_badge">#EF5350</color>
+  <color name="style_color_badge_text">#FFFFFF</color>
+
+  <!-- Navigation -->
+  <color name="style_color_navigation_background">#181818</color>
+  <color name="style_color_navigation_icon">#8E8E8E</color>
+  <color name="style_color_navigation_icon_selected">#FF8A00</color>
+
+  <!-- Ripple -->
+  <color name="style_color_ripple">#33FF8A00</color>
+  <color name="style_color_ripple_light">#1AFF8A00</color>
+
+  <!-- Overlay -->
+  <color name="style_color_overlay_light">#14FFFFFF</color>
+  <color name="style_color_overlay_medium">#33FFFFFF</color>
+  <color name="style_color_overlay_dark">#66FFFFFF</color>
+
+  <!-- Shadows -->
+  <color name="style_color_shadow">#80000000</color>
+  <color name="style_color_shadow_medium">#99000000</color>
+  <color name="style_color_shadow_dark">#CC000000</color>
+
+  <color name="style_transparent_white">#AEFFFFFF</color>
+
+  <color name="style_color_transparent">#00000000</color>
+  <color name="style_color_transparent_dark">#14000000</color>
+  <color name="style_color_transparent_darker">#66000000</color>
+
+  <color name="ic_launcher_background">#202126</color>
+
+</resources>

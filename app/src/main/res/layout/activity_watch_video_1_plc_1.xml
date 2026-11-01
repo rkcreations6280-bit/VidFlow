@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="horizontal"
+  android:padding="@dimen/_10">
+
+  <ImageView
+    android:id="@+id/btnPlayPrevious"
+    android:layout_width="@dimen/_60"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center"
+    android:layout_toLeftOf="@id/btnTogglePlayback"
+    android:adjustViewBounds="true"
+    android:background="@drawable/bg_button_negative"
+    android:clickable="true"
+    android:elevation="@dimen/_5"
+    android:importantForAccessibility="no"
+    android:src="@drawable/ic_skip_previous"
+    android:tint="@color/color_surface"
+    tools:ignore="UseAppTint,ImageContrastCheck" />
+
+  <ImageView
+    android:id="@+id/btnTogglePlayback"
+    android:layout_width="@dimen/_80"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:adjustViewBounds="true"
+    android:background="@drawable/bg_button_negative"
+    android:clickable="true"
+    android:elevation="@dimen/_5"
+    android:importantForAccessibility="no"
+    android:src="@drawable/ic_pause_solid"
+    android:tint="@color/color_surface"
+    tools:ignore="UseAppTint,ImageContrastCheck" />
+
+  <ImageView
+    android:id="@+id/btnPlayNext"
+    android:layout_width="@dimen/_60"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:layout_toRightOf="@id/btnTogglePlayback"
+    android:adjustViewBounds="true"
+    android:background="@drawable/bg_button_negative"
+    android:clickable="true"
+    android:elevation="@dimen/_5"
+    android:importantForAccessibility="no"
+    android:src="@drawable/ic_skip_next"
+    android:tint="@color/color_surface"
+    tools:ignore="UseAppTint,ImageContrastCheck" />
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_margin="10dp"
+  app:cardBackgroundColor="@color/style_color_transparent"
+  app:cardCornerRadius="5dp"
+  app:cardElevation="0dp"
+  app:strokeColor="@color/style_color_transparent"
+  app:strokeWidth="1dp">
+
+  <FrameLayout
+    android:layout_width="100dp"
+    android:layout_height="80dp"
+    android:layout_gravity="center"
+    android:alpha="1"
+    android:background="@drawable/ic_rd_background_color">
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+      android:id="@+id/progressLoading"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:indeterminate="true"
+      android:visibility="visible"
+      app:indicatorColor="@color/style_color_primary"
+      app:indicatorSize="60dp"
+      app:trackThickness="6dp" />
+
+  </FrameLayout>
+</com.google.android.material.card.MaterialCardView>

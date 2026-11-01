@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="label__" translatable="false">__</string>
+  <string name="title_app_name" translatable="false">VidFlow</string>
+  <string name="label_app_name_full" translatable="false">VidFlow</string>
+  <string name="title_default_app_folder" translatable="false">VidFlow Downloads</string>
+  <string name="title_vidflow_images" translatable="false">VidFlow Images</string>
+  <string name="title_vidflow_videos" translatable="false">VidFlow Videos</string>
+  <string name="title_vidflow_sounds" translatable="false">VidFlow Sounds</string>
+  <string name="title_vidflow_documents" translatable="false">VidFlow Documents</string>
+  <string name="title_vidflow_programs" translatable="false">VidFlow Programs</string>
+  <string name="title_vidflow_archives" translatable="false">VidFlow Archives</string>
+  <string name="title_vidflow_others" translatable="false">VidFlow Others</string>
+
+  <string name="http_vidflow_official_page_url" translatable="false"></string>
+  <string name="http_vidflow_official_privacy_url" translatable="false"></string>
+  <string name="http_vidflow_official_terms_url" translatable="false"></string>
+  <string name="https_google_com" translatable="false">https://google.com/</string>
+  <string name="https_youtube_com" translatable="false">https://youtube.com/</string>
+  <string name="code_whatsapp_status_file_dir" translatable="false">/storage/emulated/0/Android/media/com.whatsapp/WhatsApp/Media/.Statuses/</string>
+
+  <string name="code_downloads_default_http_user_agent" translatable="false">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36</string>
+  <string name="code_browser_default_mobile_http_user_agent" translatable="false">Mozilla/5.0 (Linux; Android 11; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Mobile Safari/537.36</string>
+  <string name="code_browser_default_desktop_http_user_agent" translatable="false">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36</string>
+  <string name="code_whatsapp_status_folder_path" translatable="false">/storage/emulated/0/Android/media/com.whatsapp/WhatsApp/Media/.Statuses/</string>
+
+  <string name="label_select_language">Select Language</string>
+  <string name="title_skip_for_now">Skip For Now</string>
+  <string name="subtext_vidflow_downloader_tagline">Download, Watch &amp; Share With Friends</string>
+  <string name="subtext_app_splash_credit">Made With ❤️  In India  🇮🇳</string>
+  <string name="text_send_feedback_msg_at_homepage"><b>That’s all for today.</b> Have suggestions or feedback? We\'d love to hear from you. <a>Click here to send a message.</a></string>
+
+  <string name="label_unlock_requires">Unlock requires</string>
+  <string name="label_setup_device_password">Setup device lock first</string>
+  <string name="hint_authentication_failed">Authentication failed or cancelled</string>
+  <string name="label_cancel">Cancel</string>
+
+  <string name="label_no">No</string>
+  <string name="label_performed">Performed</string>
+  <string name="label_not_performed">Not Performed</string>
+  <string name="label_click_here_to_open">Click Here To Open</string>
+  <string name="label_sounds">Sounds</string>
+  <string name="label_archives">Archives</string>
+  <string name="label_programs">Programs</string>
+  <string name="label_videos">Videos</string>
+  <string name="label_documents">Documents</string>
+  <string name="label_images">Images</string>
+  <string name="label_others">Others</string>
+
+  <string name="label_mobile_user_agent">Mobile User Agent</string>
+  <string name="label_unknown">Unknown</string>
+  <string name="label_sharing_media_file">Sharing media file…</string>
+
+  <string name="label_send_feedback">Send Feedback</string>
+  <string name="subtitle_feedback">Help us improve VidFlow 💙</string>
+  <string name="label_experience">How was your experience?</string>
+  <string name="label_excellent">Excellent</string>
+  <string name="label_good">Good</string>
+  <string name="label_average">Average</string>
+  <string name="label_poor">Poor</string>
+  <string name="label_amazing">Amazing</string>
+  <string name="label_subject">Subject</string>
+  <string name="hint_feedback_subject">Briefly tell us what this is about</string>
+  <string name="label_describe_feedback">Describe your feedback</string>
+  <string name="hint_describe_feedback">Tell us in detail so we can understand and improve…</string>
+  <string name="label_attach_screenshot">Attach screenshot (optional)</string>
+  <string name="label_upload_image">Upload Image</string>
+  <string name="label_upload_image_hint">PNG, JPG up to 5MB</string>
+  <string name="label_email">Email (optional)</string>
+  <string name="hint_feedback_email">Enter your email address</string>
+  <string name="subtext_email">We will contact you if needed</string>
+  <string name="btn_send_feedback">Send Feedback</string>
+  <string name="footer_feedback_safe">Your feedback is 100% safe and confidential</string>
+  <string name="title_zero_slash_five_hundred">0/500</string>
+  <string name="label_angry">Angry</string>
+  <string name="label_sample_text_message">This is a sample test message for UI</string>
+  <string name="hint_image_attached_successfully">Image attached successfully</string>
+  <string name="hint_feedback_sent_thank_you">Feedback sent! Thank you.</string>
+  <string name="hint_feedback_sent_failed">Failed sending feedback, try again later.</string>
+  <string name="hint_please_describe_feedback">Please describe your feedback</string>
+  <string name="hint_feedback_is_too_long">Feedback is too long</string>
+  <string name="label_sample_file_size">"File size: 2343 KB"</string>
+  <string name="label_file_sample_name">Medical dr. narayan supriya report.pdf</string>
+  <string name="hint_click_again_for_changing_attachment">Click here again for changing the attachment</string>
+  <string name="label_file_size">File size : </string>
+  <string name="hint_file_size_exceed_5mb">File size exceeds 5MB</string>
+  <string name="hint_sending_feedback">Sending Feedback</string>
+  <string name="hint_please_give_subject">Please give your feedback a subject</string>
+  <string name="hint_failed_to_submit_feedback">Failed to submit feedback</string>
+  <string name="label_terms_conditions"><![CDATA[Terms & Conditions]]></string>
+  <string name="subtitle_terms_conditions">Please read these terms carefully</string>
+  <string name="label_last_updated">Last updated: </string>
+  <string name="label_last_updated_date">April 28, 2026</string>
+  <string name="text_terms_intro">Welcome to VidFlow. By using our app, you agree to comply with and be bound by the following terms.</string>
+  <string name="title_acceptance_terms">Acceptance of Terms</string>
+  <string name="desc_acceptance_terms">By accessing or using VidFlow, you agree to be bound by these Terms &amp; Conditions and our Privacy Policy.</string>
+  <string name="extra_acceptance_terms">By using this application, you acknowledge that you have read, understood, and agreed to be bound by these terms. This agreement applies to all visitors, users, and others who access the service. If you disagree with any part of the terms, then you may not access the service.</string>
+  <string name="title_use_of_app">Use of the App</string>
+  <string name="desc_use_of_app">You agree to use the app in accordance with these terms and only for lawful purposes. You shall not misuse the app in any way.</string>
+  <string name="extra_use_of_app">You are responsible for any activity that occurs through your use of the app. You must not use the service for any illegal or unauthorized purpose. International users agree to comply with all local laws regarding online conduct and acceptable content.</string>
+  <string name="title_intellectual_property">Intellectual Property</string>
+  <string name="desc_intellectual_property">All content, features, and materials in the app are owned by VidFlow and protected by copyright laws.</string>
+  <string name="extra_intellectual_property">The service and its original content (excluding content provided by users), features, and functionality are and will remain the exclusive property of VidFlow and its licensors. Our trademarks and trade dress may not be used in connection with any product or service without prior written consent.</string>
+  <string name="title_prohibited_activities">Prohibited Activities</string>
+  <string name="desc_prohibited_activities">You agree not to copy, modify, distribute, or reverse engineer any part of the app or its services.</string>
+  <string name="extra_prohibited_activities">You specifically agree not to: (1) access the service using automated means (bots/scrapers); (2) attempt to interfere with the proper working of the service; (3) bypass measures used to prevent or restrict access; or (4) decompile, disassemble, or reverse engineer the software.</string>
+  <string name="title_limitation_liability">Limitation of Liability</string>
+  <string name="desc_limitation_liability">We are not responsible for any direct or indirect damages resulting from the use or inability to use the app.</string>
+  <string name="extra_limitation_liability">In no event shall VidFlow, nor its directors, employees, or partners, be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your access to or use of the service.</string>
+  <string name="title_changes_to_terms">Changes to Terms</string>
+  <string name="desc_changes_to_terms">We may change these rules sometimes. If you keep using the app, it means you agree to the new rules.</string>
+  <string name="extra_changes_to_terms">We reserve the right, at our sole discretion, to modify or replace these terms at any time. If a revision is material, we will try to provide at least 30 days\' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.</string>
+  <string name="label_agree_terms">I have read and agree to the Terms &amp; Conditions</string>
+  <string name="label_agree_continue"><![CDATA[Agree & Continue]]></string>
+  <string name="hint_you_must_accept_the_terms">You must accept the terms</string>
+  <string name="label_update_available">Update Available</string>
+  <string name="subtitle_update_available">We\'ve made VidFlow even better</string>
+  <string name="hint_sample_version_info">2026.05.18</string>
+  <string name="label_latest_version">Latest Version</string>
+  <string name="label_whats_new">What\'s New</string>
+  <string name="title_download_from_official_site">Download APK From Official Site</string>
+  <string name="btn_install_the_update">Install The Update</string>
+  <string name="text_updater_info"><b>A new update is available.</b> It will download securely via our global CDN. Once complete, you can install the APK directly or use the link below to download manually from our official site.</string>
+  <string name="desc_whats_new"><![CDATA[Bug Fixes & System Enhancements]]></string>
+  <string name="extra_whats_new_html">This update includes stability fixes, performance improvements, and minor optimizations under the hood. Keeping your app updated helps us ensure maximum compatibility and makes the downloading features much more reliable.</string>
+  <string name="label_okay">Okay</string>
+  <string name="label_cancel_download">Cancel Download</string>
+  <string name="label_cancel_installing">Cancel Installing</string>
+
+  <string name="label_downloading_update">Downloading Update</string>
+  <string name="desc_downloading_update">Please wait while we download and install the latest version. Keep the app open and connected to the internet until the update is complete.</string>
+  <string name="label_download_speed">Download Speed</string>
+  <string name="label_time_left">Time Left</string>
+  <string name="label_total_size">Total Size</string>
+  <string name="label_stay_connected">Stay connected</string>
+  <string name="subtext_stay_connected">Please keep the app open and your device connected to the internet while installing.</string>
+  <string name="_0_percentage">0%</string>
+  <string name="label_sample_0_mb_0_mb">0 MB / 0 MB</string>
+  <string name="label_sample_0_mb_s">0 MB/s</string>
+  <string name="label_sample_0_mb">0 MB</string>
+  <string name="label_sample_00_00_00">00:00:00</string>
+  <string name="hint_updating_is_canceled">Updating is canceled</string>
+  <string name="label_finishing">Finishing…</string>
+  <string name="label_connecting">Connecting…</string>
+  <string name="label_download_has_failed">Download Has Failed</string>
+  <string name="desc_download_failed_reason">The download was interrupted. <b>This may occur if the app was closed or your network connection dropped.</b></string>
+  <string name="label_something_went_wrong">Something went wrong, try again later.</string>
+  <string name="text_storage_permission_required">The storage permission is required to download and install the latest app version. <b>Please allow the permission to continue.</b></string>
+  <string name="label_allow_now">Allow Now</string>
+  <string name="label_storage_permission_needed">Storage Permission Needed</string>
+  <string name="title_app_crashed">Something Went Wrong</string>
+  <string name="subtitle_app_crashed">It look like VidFlow just crashed.\nWe\'re really sorry about that.</string>
+  <string name="btn_yes_report_it">Yes, Report It</string>
+  <string name="btn_no_thanks">No Thanks</string>
+  <string name="label_continue_anyway">Continue Anyway</string>
+  <string name="label_crash_feature_improve">Help Us Improve</string>
+  <string name="desc_crash_feature_improve">Would you like to report this issue to our team? Your report helps us fix bugs and improve the app for everyone.</string>
+  <string name="label_crash_feature_fix_speed">Fix Issues Faster</string>
+  <string name="desc_crash_feature_fix_speed">Your report instantly sends diagnostic data to our team, allowing us to pinpoint the issue and deploy a hotfix right away.</string>
+  <string name="label_crash_feature_privacy">Privacy First</string>
+  <string name="desc_crash_feature_privacy">We only collect technical crash logs and basic device info related to this specific event. Your personal files remain completely untouched.</string>
+  <string name="label_crash_feature_title_community">Improve for Everyone</string>
+  <string name="text_crash_feature_desc_community">Your reports directly help our team identify bugs and ensure long-term stability for all VidFlow users.</string>
+  <string name="label_dont_close_app">Don\'t Close The App</string>
+  <string name="title_home">Home</string>
+  <string name="title_musics">Music</string>
+  <string name="title_movies">Movies</string>
+  <string name="title_games">Games</string>
+  <string name="title_browser">Browser</string>
+  <string name="title_all_files">All Files</string>
+  <string name="label_sample_channel_name">Tech4Eva</string>
+  <string name="label_sample_video_title">Aaj Pahir Jeeny Ki Tamana Hai (New Version) | New Viral 1080P Music Trending Song</string>
+  <string name="label_channel_name">Channel Name</string>
+  <string name="label_100k_subscribers">100K Subscribers</string>
+  <string name="label_720p">720P</string>
+  <string name="label_live">Live</string>
+  <string name="label_subscribe">Subscribe</string>
+  <string name="label_playlist">Playlist</string>
+  <string name="label_play_audio">Play Audio</string>
+  <string name="label_share_link">Share Link</string>
+  <string name="label_download">Download</string>
+  <string name="label_sample_video_views">2,816,821,505 views</string>
+  <string name="label_play_next_video">Play Next</string>
+  <string name="label_related_videos">Related Videos</string>
+
+  <!-- Player -->
+  <string name="player_notification_channel_name">Playback</string>
+  <string name="player_notification_channel_desc">Media playback controls and notifications</string>
+  <string name="player_notification_play">Play</string>
+  <string name="player_notification_pause">Pause</string>
+  <string name="player_notification_next">Next</string>
+  <string name="player_notification_previous">Previous</string>
+  <string name="player_notification_close">Close</string>
+  <string name="player_notification_repeat">Repeat</string>
+  <string name="player_error_playback">Playback error</string>
+  <string name="player_error_no_streams">No playable streams found</string>
+  <string name="player_loading">Loading…</string>
+  <string name="player_speed">Speed</string>
+  <string name="player_pitch">Pitch</string>
+  <string name="player_queue">Queue</string>
+  <string name="player_segments">Chapters</string>
+  <string name="player_end_screen_title">Up next</string>
+  <string name="player_no_title">Unknown title</string>
+  <string name="label_app_crashed">App Crashed</string>
+  <string name="desc_an_unexpected_error_occurred">An unexpected error occurred and the app closed. Help us fix it by sending a crash report.</string>
+  <string name="label_what_were_you_doing_optional"><b>What were you doing? </b>(Optional) </string>
+  <string name="label_tell_us_what_happened">Tell us what happened…</string>
+  <string name="label_include_crash_log">Include crash log</string>
+  <string name="label_include_device_amp_app_information"><![CDATA[Include device & app information]]></string>
+  <string name="label_reports_help_us_improve_the_app">Reports are anonymous and help us improve the app.</string>
+  <string name="label_send_report">Send Report</string>
+  <string name="label_restart_app">Restart App</string>
+  <string name="label_view_technical_details">View Technical Details</string>
+  <string name="label_crash_id">"Crash ID: "</string>
+  <string name="label_app_version">Application Version</string>
+  <string name="label_device_id">Device Id</string>
+  <string name="label_android_version">Android Version</string>
+  <string name="label_system_crashed_at">System Crashed Time</string>
+  <string name="hint_select_language">Choose your preferred language to personalize your experience.</string>
+  <string name="label_continue">Continue</string>
+  <string name="label_skip_for_now">Skip For Now</string>
+  <string name="label_hindi">हिन्दी (Hindi)</string>
+  <string name="desc_update_available"><b>A new version of the VidFlow is available</b> with improvements and bug fixes.</string>
+  <string name="text_demo_update_changelog">This update includes stability fixes, performance improvements, and minor optimizations under the hood. Keeping your app updated helps us ensure maximum compatibility and makes the downloading features much more reliable.\n\n<b>Changelog:</b>\n• Fixed background network timeout drops on mobile connections.\n• Improved chunk handling for large file transfers.\n• Optimizations to overall memory footprint and core stability.</string>
+  <string name="label_current_version">Current Version</string>
+  <string name="label_release_date">Release Date</string>
+  <string name="label_apk_size">APK Size</string>
+  <string name="desc_secure_update_from_official_source"><![CDATA[Official Update • Verified Source • Safe & Secure]]></string>
+  <string name="label_download_update">Download The Update</string>
+  <string name="label_remind_me_later">Remind Me Later</string>
+  <string name="label_visit_official_site">Visit Official Site</string>
+  <string name="hint_attach_screenshot">Attach a screenshot to help us understand the issue better.</string>
+  <string name="label_add_image">Add Image</string>
+  <string name="btn_clear_attachment">Clear Attachment</string>
+  <string name="label_privacy_policy">Privacy Policies</string>
+  <string name="label_privacy_settings">Privacy Settings</string>
+  <string name="label_privacy_data_choices">Choose what data we can collect</string>
+  <string name="desc_data_collection_info">Your data stays secure and under your control. We only collect information necessary to improve app functionality and provide support.</string>
+  <string name="label_your_privacy_matters">Your Privacy Matters</string>
+  <string name="label_crash_report">Crash Reports</string>
+  <string name="desc_crash_report">Help us identify and fix bugs</string>
+  <string name="label_analytics">Analytics</string>
+  <string name="desc_usage_analytics">Anonymous usage statistics</string>
+  <string name="label_personalized_rec">Personalized Recommendations</string>
+  <string name="desc_personalized_rec">Improve suggestions and content</string>
+  <string name="label_how_we_use_ur_data">How We Use Your Data</string>
+  <string name="label_ur_data_is_used_to_">Your data is used to:</string>
+  <string name="label_improve_app_performance">Improve app performance</string>
+  <string name="label_provide_customer_support">Provide customer support</string>
+  <string name="label_fix_bug_and_crashes">Fix bugs and crashes</string>
+  <string name="label_deliver_updates_securely">Deliver updates securely</string>
+  <string name="label_security">Security</string>
+  <string name="label_we_take_security_seriously">We take security seriously</string>
+  <string name="label_no_password_collection">No password collection</string>
+  <string name="label_end_encrypted_storage">End-to-end encrypted storage</string>
+  <string name="label_secure_https_connections">Secure HTTP connections</string>
+  <string name="label_review_privacy_policy">Review Privacy Policy</string>
+  <string name="label_about_us">About Us</string>
+  <string name="label_we_are_here_to_help_you">We\'re here to help you</string>
+  <string name="text_about_us_info_tagline">Your all-in-one video downloader with support for 1,000+ websites and access to thousands of movies and videos.</string>
+  <string name="label_our_story">Our Story</string>
+  <string name="desc_learn_more_about_how_we_started">Explore our journey, our purpose, and the values that shape our products.</string>
+  <string name="label_our_mission">Our Mission</string>
+  <string name="desc_deliver_simple_reliable_experience">Our mission is to build simple, reliable, and intuitive experiences for every user.</string>
+  <string name="label_what_we_value">What We Value</string>
+  <string name="label_why_we_built_this">Why We Built This</string>
+  <string name="desc_empowering_users_with_tools">We create powerful, easy-to-use tools that simplify everyday life.</string>
+  <string name="label_get_in_touch">Get in Touch</string>
+  <string name="desc_we_d_love_to_hear_from_you">We\'d love to hear from you. Share your feedback, ideas, or questions anytime.</string>
+  <string name="label_email_us">Email Us</string>
+  <string name="label_website">Website</string>
+  <string name="label_twitter">Twitter</string>
+
+  <string name="text_agreement_html"><![CDATA[This app works on your phone and does not send your data to any server.]]></string>
+
+</resources>

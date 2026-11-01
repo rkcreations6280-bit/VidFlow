@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/style_color_background">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <!-- Address bar -->
+    <LinearLayout
+      android:id="@+id/topBar"
+      android:layout_width="match_parent"
+      android:layout_height="54dp"
+      android:layout_marginStart="8dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginEnd="8dp"
+      android:background="@drawable/bg_v2_card"
+      android:gravity="center_vertical"
+      android:orientation="horizontal"
+      android:paddingStart="4dp"
+      android:paddingEnd="4dp">
+
+      <FrameLayout
+        android:id="@+id/btnShield"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+          android:id="@+id/imgShield"
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:layout_gravity="center"
+          android:importantForAccessibility="no"
+          android:src="@drawable/ic_v2_shield"
+          android:tint="@color/style_color_primary" />
+
+        <TextView
+          android:id="@+id/tvShieldCount"
+          android:layout_width="wrap_content"
+          android:layout_height="14dp"
+          android:layout_gravity="top|end"
+          android:layout_marginTop="2dp"
+          android:layout_marginEnd="0dp"
+          android:background="@drawable/bg_v2_badge_orange"
+          android:fontFamily="@font/font_family_bold"
+          android:gravity="center"
+          android:minWidth="14dp"
+          android:paddingStart="3dp"
+          android:paddingEnd="3dp"
+          android:textColor="#111111"
+          android:textSize="9sp"
+          android:visibility="gone" />
+      </FrameLayout>
+
+      <LinearLayout
+        android:id="@+id/urlPill"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_v2_pill"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="12dp"
+        android:paddingEnd="8dp">
+
+        <ImageView
+          android:id="@+id/imgLock"
+          android:layout_width="14dp"
+          android:layout_height="14dp"
+          android:importantForAccessibility="no"
+          android:src="@drawable/ic_v2_lock"
+          android:tint="@color/style_color_text_secondary" />
+
+        <FrameLayout
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_marginStart="8dp"
+          android:layout_weight="1">
+
+          <TextView
+            android:id="@+id/tvUrl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:fontFamily="@font/font_family_medium"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:textColor="@color/style_color_text_primary"
+            android:textSize="14sp" />
+
+          <EditText
+            android:id="@+id/etUrl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:fontFamily="@font/font_family_regular"
+            android:hint="@string/v2_search_hint"
+            android:imeOptions="actionGo"
+            android:inputType="textUri"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:textColor="@color/style_color_text_primary"
+            android:textColorHint="@color/style_color_text_hint"
+            android:textSize="14sp"
+            android:visibility="gone" />
+        </FrameLayout>
+
+        <ImageView
+          android:id="@+id/btnReloadStop"
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:contentDescription="@string/v2_cd_reload"
+          android:padding="6dp"
+          android:src="@drawable/ic_v2_refresh"
+          android:tint="@color/style_color_primary" />
+      </LinearLayout>
+
+      <FrameLayout
+        android:id="@+id/btnTabs"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TextView
+          android:id="@+id/tvTabCount"
+          android:layout_width="22dp"
+          android:layout_height="22dp"
+          android:layout_gravity="center"
+          android:background="@drawable/bg_v2_tabcount"
+          android:fontFamily="@font/font_family_bold"
+          android:gravity="center"
+          android:text="1"
+          android:textColor="@color/style_color_primary"
+          android:textSize="11sp" />
+      </FrameLayout>
+
+      <ImageView
+        android:id="@+id/btnMenu"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:contentDescription="@string/v2_cd_options"
+        android:padding="7dp"
+        android:src="@drawable/ic_more_vert"
+        android:tint="@color/style_color_primary" />
+    </LinearLayout>
+
+    <ProgressBar
+      android:id="@+id/progressPage"
+      style="@android:style/Widget.ProgressBar.Horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="4dp"
+      android:layout_marginStart="14dp"
+      android:layout_marginTop="4dp"
+      android:layout_marginEnd="14dp"
+      android:max="100"
+      android:maxHeight="4dp"
+      android:minHeight="4dp"
+      android:progressDrawable="@drawable/notif_progress_bar"
+      android:visibility="invisible" />
+
+    <!-- Notice banner (blocked redirect, blocked download, ...) -->
+    <LinearLayout
+      android:id="@+id/bannerBox"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="8dp"
+      android:layout_marginTop="4dp"
+      android:layout_marginEnd="8dp"
+      android:background="@drawable/bg_v2_item"
+      android:gravity="center_vertical"
+      android:orientation="horizontal"
+      android:paddingStart="12dp"
+      android:paddingTop="8dp"
+      android:paddingEnd="8dp"
+      android:paddingBottom="8dp"
+      android:visibility="gone">
+
+      <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/ic_v2_shield"
+        android:tint="@color/style_color_primary" />
+
+      <TextView
+        android:id="@+id/tvBanner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/font_family_regular"
+        android:textColor="@color/style_color_text_primary"
+        android:textSize="13sp" />
+
+      <TextView
+        android:id="@+id/tvBannerAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_family_bold"
+        android:padding="6dp"
+        android:textColor="@color/style_color_primary"
+        android:textSize="13sp" />
+    </LinearLayout>
+
+    <!-- Page area -->
+    <FrameLayout
+      android:id="@+id/webContainer"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_marginTop="4dp"
+      android:layout_weight="1"
+      android:paddingBottom="78dp">
+
+      <androidx.core.widget.NestedScrollView
+        android:id="@+id/startPage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/style_color_background"
+        android:clipToPadding="false">
+
+        <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center_horizontal"
+          android:orientation="vertical"
+          android:padding="20dp">
+
+          <ImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_v2_icon_btn"
+            android:importantForAccessibility="no"
+            android:padding="18dp"
+            android:src="@drawable/ic_v2_shield"
+            android:tint="@color/style_color_primary" />
+
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/font_family_bold"
+            android:text="@string/v2_browser_start_title"
+            android:textColor="@color/style_color_text_primary"
+            android:textSize="22sp" />
+
+          <TextView
+            android:id="@+id/tvStartBlocked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/font_family_regular"
+            android:textColor="@color/style_color_text_secondary"
+            android:textSize="13sp" />
+
+          <GridLayout
+            android:id="@+id/startGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:columnCount="4" />
+        </LinearLayout>
+      </androidx.core.widget.NestedScrollView>
+
+      <!-- Address suggestions -->
+      <ScrollView
+        android:id="@+id/suggestScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/style_color_background"
+        android:visibility="gone">
+
+        <LinearLayout
+          android:id="@+id/suggestBox"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:padding="8dp" />
+      </ScrollView>
+    </FrameLayout>
+  </LinearLayout>
+
+  <!-- Download detector button -->
+  <ImageView
+    android:id="@+id/fabDownload"
+    android:layout_width="56dp"
+    android:layout_height="56dp"
+    android:layout_gravity="bottom|end"
+    android:layout_marginEnd="18dp"
+    android:layout_marginBottom="112dp"
+    android:background="@drawable/bg_v2_fab_idle"
+    android:contentDescription="@string/v2_cd_download_media"
+    android:elevation="8dp"
+    android:padding="15dp"
+    android:src="@drawable/ic_v2_download"
+    android:tint="@color/style_color_primary" />
+</FrameLayout>

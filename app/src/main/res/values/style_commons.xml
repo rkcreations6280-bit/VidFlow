@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <dimen name="default_radius">5dp</dimen>
+  <dimen name="default_radius_2">20dp</dimen>
+
+  <item name="tag_download_id" type="id" />
+  <item name="tag_download_ui_manager" type="id" />
+
+</resources>

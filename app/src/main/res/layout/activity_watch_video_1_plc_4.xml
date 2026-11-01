@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.dangiashish.StyledCardView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  app:background_ColorType="gradient_linear"
+  app:background_Gradient_Angle="45"
+  app:background_Gradient_Color0="@color/color_card"
+  app:background_Gradient_Color1="@color/color_surface"
+  app:background_Type="fill_stroke"
+  app:cornerRadius="@dimen/default_radius"
+  app:shadow0_Outer_Alpha=".1"
+  app:shadow0_Outer_Angle="-45"
+  app:shadow0_Outer_Blur="@dimen/_5"
+  app:shadow0_Outer_Color="@color/color_primary_variant"
+  app:shadow0_Outer_Distance="@dimen/_5"
+  app:shadow1_Outer_Alpha="0.1"
+  app:shadow1_Outer_Angle="360"
+  app:shadow1_Outer_Blur="@dimen/_5"
+  app:shadow1_Outer_Color="@color/color_secondary"
+  app:shadow1_Outer_Distance="@dimen/_2"
+  app:shadow_Outer_Area="@dimen/_10"
+  app:stroke_Alpha=".3"
+  app:stroke_ColorType="gradient_sweep"
+  app:stroke_Gradient_Angle="-45"
+  app:stroke_Gradient_Color0="@color/color_primary"
+  app:stroke_Gradient_Color1="@color/color_primary_variant"
+  app:stroke_Width="1dp">
+
+  <LinearLayout
+    android:id="@+id/videoInformation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="UselessParent">
+
+    <TextView
+      android:id="@+id/tvVideoTitle"
+      style="@style/style_textviews"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="@dimen/_10"
+      android:layout_marginTop="@dimen/_10"
+      android:layout_marginRight="@dimen/_5"
+      android:layout_marginBottom="@dimen/_0"
+      android:background="@drawable/bg_button_negative"
+      android:clickable="true"
+      android:drawableRight="@drawable/ic_arrow_right"
+      android:drawableTint="@color/color_text_primary"
+      android:ellipsize="end"
+      android:fontFamily="@font/font_family_semibold"
+      android:gravity="left|center_vertical"
+      android:maxLines="2"
+      android:minHeight="@dimen/_32"
+      android:minLines="1"
+      android:paddingTop="@dimen/_0"
+      android:paddingBottom="@dimen/_0"
+      android:singleLine="false"
+      tools:text="@string/label_sample_video_title"
+      android:textColor="@color/color_text_primary"
+      android:textSize="@dimen/sub_heading_text_size"
+      tools:ignore="SpUsage,TextSizeCheck,UseCompatTextViewDrawableXml,
+      VisualLintSystemUi,TouchTargetSizeCheck,VisualLintSystemUi" />
+
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/_1"
+      android:layout_marginLeft="@dimen/_10"
+      android:layout_marginTop="@dimen/_5"
+      android:layout_marginRight="@dimen/_10"
+      android:layout_marginBottom="@dimen/_5"
+      android:background="@color/color_divider_light" />
+
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="@dimen/_10"
+      android:layout_marginTop="@dimen/_0"
+      android:layout_marginRight="@dimen/_10"
+      android:layout_marginBottom="@dimen/_0"
+      android:baselineAligned="false">
+
+      <LinearLayout
+        android:id="@+id/ll_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/_10"
+        android:layout_toStartOf="@id/ll_stats"
+        android:layout_toLeftOf="@id/ll_stats">
+
+        <ImageView
+          android:id="@+id/ivChannelLogo"
+          android:layout_width="@dimen/_38"
+          android:layout_height="@dimen/_38"
+          android:adjustViewBounds="true"
+          android:importantForAccessibility="no"
+          android:scaleType="centerCrop"
+          app:shapeAppearance="@style/circular_image_view"
+          tools:src="@drawable/ic_person_avatar" />
+
+        <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:layout_marginLeft="@dimen/_5"
+          android:gravity="center_vertical"
+          android:orientation="vertical">
+
+          <TextView
+            android:id="@+id/tvChannelName"
+            style="@style/style_textviews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_0"
+            android:fontFamily="@font/font_family_medium"
+            tools:text="@string/label_channel_name"
+            android:textColor="@color/color_text_primary"
+            android:textSize="@dimen/message_text_size"
+            tools:ignore="SpUsage,TextSizeCheck" />
+
+          <TextView
+            android:id="@+id/tvSubscriptions"
+            style="@style/style_textviews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_0"
+            android:layout_marginTop="@dimen/_3"
+            android:layout_marginRight="@dimen/_0"
+            android:layout_marginBottom="@dimen/_0"
+            android:fontFamily="@font/font_family_regular"
+            tools:text="@string/label_100k_subscribers"
+            android:textColor="@color/color_text_hint"
+            android:textSize="@dimen/small_text_size_v2"
+            tools:ignore="SpUsage,TextSizeCheck,TextContrastCheck" />
+        </LinearLayout>
+      </LinearLayout>
+
+      <LinearLayout
+        android:id="@+id/ll_stats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+          android:id="@+id/tvVideoViews"
+          style="@style/style_textviews"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="@dimen/_0"
+          android:fontFamily="@font/font_family_medium"
+          android:lines="1"
+          tools:text="@string/label_sample_video_views"
+          android:textColor="@color/color_text_primary"
+          android:textSize="@dimen/message_text_size"
+          tools:ignore="SpUsage,TextSizeCheck" />
+
+        <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="right"
+          android:layout_marginTop="@dimen/_5"
+          android:orientation="horizontal"
+          tools:ignore="UseCompoundDrawables">
+
+          <ImageView
+            android:id="@+id/imgLike"
+            android:layout_width="@dimen/_10"
+            android:layout_height="@dimen/_10"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/_0"
+            android:layout_marginRight="@dimen/_5"
+            android:adjustViewBounds="true"
+            android:importantForAccessibility="no"
+            android:src="@drawable/ic_thumb_up"
+            android:tint="@color/color_text_hint"
+            tools:ignore="UseAppTint,ImageContrastCheck" />
+
+          <TextView
+            android:id="@+id/tvVideoLikes"
+            style="@style/style_textviews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/_0"
+            android:fontFamily="@font/font_family_regular"
+            android:gravity="center_vertical"
+            tools:text="10K"
+            android:textColor="@color/color_text_hint"
+            android:textSize="@dimen/small_text_size_v2"
+            tools:ignore="HardcodedText,SpUsage,TextContrastCheck,TextSizeCheck" />
+        </LinearLayout>
+      </LinearLayout>
+    </RelativeLayout>
+
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/_1"
+      android:layout_marginLeft="@dimen/_10"
+      android:layout_marginTop="@dimen/_5"
+      android:layout_marginRight="@dimen/_10"
+      android:layout_marginBottom="@dimen/_5"
+      android:background="@color/color_divider_light" />
+
+    <include
+      android:id="@+id/shareBtnContainer"
+      layout="@layout/activity_watch_video_1_plc_5"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="@dimen/_10"
+      android:layout_marginTop="@dimen/_2"
+      android:layout_marginRight="@dimen/_10"
+      android:layout_marginBottom="@dimen/_10" />
+
+  </LinearLayout>
+</com.github.dangiashish.StyledCardView>

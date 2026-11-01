@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/bottomTabs"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:background="@drawable/bg_v2_card"
+  android:baselineAligned="false"
+  android:orientation="horizontal"
+  android:padding="3dp">
+
+  <LinearLayout
+    android:id="@+id/btnHomeTab"
+    android:layout_width="0dp"
+    android:layout_height="58dp"
+    android:layout_margin="3dp"
+    android:layout_weight="1"
+    android:background="@drawable/bg_v2_nav_item"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+      android:id="@+id/imgHomeTab"
+      android:layout_width="22dp"
+      android:layout_height="22dp"
+      android:duplicateParentState="true"
+      android:importantForAccessibility="no"
+      android:src="@drawable/ic_v2_home"
+      android:tint="@color/v2_nav_icon" />
+
+    <TextView
+      android:id="@+id/tvHomeTab"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="3dp"
+      android:duplicateParentState="true"
+      android:fontFamily="@font/font_family_semibold"
+      android:maxLines="1"
+      android:text="@string/v2_tab_home"
+      android:textColor="@color/v2_nav_text"
+      android:textSize="12sp" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:id="@+id/btnBrowserTab"
+    android:layout_width="0dp"
+    android:layout_height="58dp"
+    android:layout_margin="3dp"
+    android:layout_weight="1"
+    android:background="@drawable/bg_v2_nav_item"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+      android:id="@+id/imgBrowserTab"
+      android:layout_width="22dp"
+      android:layout_height="22dp"
+      android:duplicateParentState="true"
+      android:importantForAccessibility="no"
+      android:src="@drawable/ic_v2_tab_browser"
+      android:tint="@color/v2_nav_icon" />
+
+    <TextView
+      android:id="@+id/tvBrowserTab"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="3dp"
+      android:duplicateParentState="true"
+      android:fontFamily="@font/font_family_semibold"
+      android:maxLines="1"
+      android:text="@string/v2_tab_browser"
+      android:textColor="@color/v2_nav_text"
+      android:textSize="12sp" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:id="@+id/btnDownloadsTab"
+    android:layout_width="0dp"
+    android:layout_height="58dp"
+    android:layout_margin="3dp"
+    android:layout_weight="1"
+    android:background="@drawable/bg_v2_nav_item"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+      android:id="@+id/imgDownloadsTab"
+      android:layout_width="22dp"
+      android:layout_height="22dp"
+      android:duplicateParentState="true"
+      android:importantForAccessibility="no"
+      android:src="@drawable/ic_v2_tab_download"
+      android:tint="@color/v2_nav_icon" />
+
+    <TextView
+      android:id="@+id/tvDownloadsTab"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="3dp"
+      android:duplicateParentState="true"
+      android:fontFamily="@font/font_family_semibold"
+      android:maxLines="1"
+      android:text="@string/v2_tab_downloads"
+      android:textColor="@color/v2_nav_text"
+      android:textSize="12sp" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:id="@+id/btnSettingsTab"
+    android:layout_width="0dp"
+    android:layout_height="58dp"
+    android:layout_margin="3dp"
+    android:layout_weight="1"
+    android:background="@drawable/bg_v2_nav_item"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+      android:id="@+id/imgSettingsTab"
+      android:layout_width="22dp"
+      android:layout_height="22dp"
+      android:duplicateParentState="true"
+      android:importantForAccessibility="no"
+      android:src="@drawable/ic_v2_settings"
+      android:tint="@color/v2_nav_icon" />
+
+    <TextView
+      android:id="@+id/tvSettingsTab"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="3dp"
+      android:duplicateParentState="true"
+      android:fontFamily="@font/font_family_semibold"
+      android:maxLines="1"
+      android:text="@string/v2_tab_settings"
+      android:textColor="@color/v2_nav_text"
+      android:textSize="12sp" />
+  </LinearLayout>
+
+</LinearLayout>

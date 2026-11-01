@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal">
+
+  <TextView
+    android:id="@+id/tvLiveIndicator"
+    style="@style/style_textviews"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:layout_marginLeft="@dimen/_5"
+    android:layout_marginTop="@dimen/_0"
+    android:layout_marginRight="@dimen/_5"
+    android:layout_marginBottom="@dimen/_0"
+    android:background="@drawable/ic_rd_accent_color"
+    android:drawableLeft="@drawable/ic_dot_circle"
+    android:drawableTint="@color/color_surface"
+    android:fontFamily="@font/font_family_medium"
+    android:paddingLeft="@dimen/_5"
+    android:paddingTop="@dimen/_5"
+    android:paddingRight="@dimen/_8"
+    android:paddingBottom="@dimen/_5"
+    android:text="@string/label_live"
+    android:textColor="@color/color_surface"
+    android:textSize="@dimen/small_text_size"
+    tools:ignore="SpUsage,UseCompatTextViewDrawableXml,
+    TextSizeCheck,TextContrastCheck,VisualLintSystemUi" />
+
+  <TextView
+    android:id="@+id/tvQuality"
+    style="@style/style_textviews"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:layout_margin="@dimen/_0"
+    android:background="@drawable/ic_rd_transparent_dark_color"
+    android:clickable="true"
+    android:drawableRight="@drawable/ic_arrow_right_small"
+    android:fontFamily="@font/font_family_medium"
+    android:gravity="center"
+    android:paddingLeft="@dimen/_8"
+    android:paddingTop="@dimen/_5"
+    android:paddingRight="@dimen/_5"
+    android:paddingBottom="@dimen/_5"
+    tools:text="@string/label_720p"
+    android:textColor="@color/color_text_primary"
+    android:textSize="@dimen/small_text_size"
+    tools:ignore="SpUsage,UseCompatTextViewDrawableXml,
+    TextSizeCheck,VisualLintSystemUi,TouchTargetSizeCheck" />
+
+  <ImageView
+    android:id="@+id/btnOpenPlaylist"
+    android:layout_width="@dimen/_32"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:layout_marginLeft="@dimen/_5"
+    android:adjustViewBounds="true"
+    android:background="@drawable/bg_button_negative"
+    android:clickable="true"
+    android:importantForAccessibility="no"
+    android:padding="@dimen/_5"
+    android:src="@drawable/ic_media_playlist"
+    android:tint="@color/color_text_primary"
+    tools:ignore="UseAppTint,TouchTargetSizeCheck" />
+
+</LinearLayout>

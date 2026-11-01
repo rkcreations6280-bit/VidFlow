@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="label_select_language">ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+  <string name="title_skip_for_now">ಸದ್ಯಕ್ಕೆ ಬಿಟ್ಟುಬಿಡಿ</string>
+  <string name="subtext_vidflow_downloader_tagline">ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ, ನೋಡಿ ಮತ್ತು ಸ್ನೇಹಿತರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ</string>
+  <string name="subtext_app_splash_credit">ಭಾರತದಲ್ಲಿ ❤️ ನಿಂದ ತಯಾರಿಸಲಾಗಿದೆ 🇮🇳</string>
+  <string name="text_send_feedback_msg_at_homepage"><b>ಇಂದಿಗೆ ಇಷ್ಟೇ.</b> ಸಲಹೆಗಳು ಅಥವಾ ಪ್ರತಿಕ್ರಿಯೆಗಳಿವೆಯೇ? ನಾವು ನಿಮ್ಮಿಂದ ಕೇಳಲು ಇಷ್ಟಪಡುತ್ತೇವೆ. <a>ಸಂದೇಶ ಕಳುಹಿಸಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ.</a></string>
+
+  <string name="label_unlock_requires">ಅನ್‌ಲಾಕ್ ಮಾಡಲು ಅಗತ್ಯವಿದೆ</string>
+  <string name="label_setup_device_password">ಮೊದಲು ಸಾಧನದ ಲಾಕ್ ಅನ್ನು ಹೊಂದಿಸಿ</string>
+  <string name="hint_authentication_failed">ದೃಢೀಕರಣ ವಿಫಲವಾಗಿದೆ ಅಥವಾ ರದ್ದಾಗಿದೆ</string>
+  <string name="label_cancel">ರದ್ದುಮಾಡಿ</string>
+
+  <string name="label_no">ಇಲ್ಲ</string>
+  <string name="label_performed">ಮಾಡಲಾಗಿದೆ</string>
+  <string name="label_not_performed">ಮಾಡಿಲ್ಲ</string>
+  <string name="label_click_here_to_open">ತೆರೆಯಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ</string>
+  <string name="label_sounds">ಶಬ್ದಗಳು</string>
+  <string name="label_archives">ಆರ್ಕೈವ್ಸ್</string>
+  <string name="label_programs">ಪ್ರೋಗ್ರಾಂಗಳು</string>
+  <string name="label_videos">ವೀಡಿಯೊಗಳು</string>
+  <string name="label_documents">ದಾಖಲೆಗಳು</string>
+  <string name="label_images">ಚಿತ್ರಗಳು</string>
+  <string name="label_others">ಇತರರು</string>
+
+  <string name="label_mobile_user_agent">ಮೊಬೈಲ್ ಬಳಕೆದಾರ ಏಜೆಂಟ್</string>
+  <string name="label_unknown">ಗೊತ್ತಿಲ್ಲದ</string>
+  <string name="label_sharing_media_file">ಮಾಧ್ಯಮ ಫೈಲ್ ಹಂಚಿಕೊಳ್ಳಲಾಗುತ್ತಿದೆ…</string>
+
+  <string name="label_send_feedback">ಪ್ರತಿಕ್ರಿಯೆ</string>
+  <string name="subtitle_feedback">VidFlow ಅನ್ನು ಸುಧಾರಿಸಲು ನಮಗೆ ಸಹಾಯ ಮಾಡಿ 💙</string>
+  <string name="label_experience">ನಿಮ್ಮ ಅನುಭವ ಹೇಗಿತ್ತು?</string>
+  <string name="label_excellent">ಅತ್ಯುತ್ತಮ</string>
+  <string name="label_good">ಒಳ್ಳೆಯದು</string>
+  <string name="label_average">ಸರಾಸರಿ</string>
+  <string name="label_poor">ಕಳಪೆ</string>
+  <string name="label_amazing">ಅದ್ಭುತ</string>
+  <string name="label_subject">ವಿಷಯ</string>
+  <string name="hint_feedback_subject">ಇದು ಯಾವುದರ ಬಗ್ಗೆ ಎಂದು ನಮಗೆ ಸಂಕ್ಷಿಪ್ತವಾಗಿ ತಿಳಿಸಿ</string>
+  <string name="label_describe_feedback">ನಿಮ್ಮ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ವಿವರಿಸಿ</string>
+  <string name="hint_describe_feedback">ನಾವು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ಮತ್ತು ಸುಧಾರಿಸಲು ನಮಗೆ ವಿವರವಾಗಿ ತಿಳಿಸಿ…</string>
+  <string name="label_attach_screenshot">ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಲಗತ್ತಿಸಿ (ಐಚ್ಛಿಕ)</string>
+  <string name="label_upload_image">ಚಿತ್ರವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ</string>
+  <string name="label_upload_image_hint">PNG, JPG 5MB ವರೆಗೆ</string>
+  <string name="label_email">ಇಮೇಲ್ (ಐಚ್ಛಿಕ)</string>
+  <string name="hint_feedback_email">ನಿಮ್ಮ ಇಮೇಲ್ ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ</string>
+  <string name="subtext_email">ಅಗತ್ಯವಿದ್ದರೆ ನಾವು ನಿಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸುತ್ತೇವೆ</string>
+  <string name="btn_send_feedback">ಪ್ರತಿಕ್ರಿಯೆ ಕಳುಹಿಸಿ</string>
+  <string name="footer_feedback_safe">ನಿಮ್ಮ ಪ್ರತಿಕ್ರಿಯೆಯು 100% ಸುರಕ್ಷಿತ ಮತ್ತು ಗೌಪ್ಯವಾಗಿದೆ</string>
+  <string name="title_zero_slash_five_hundred">0/500</string>
+</resources>

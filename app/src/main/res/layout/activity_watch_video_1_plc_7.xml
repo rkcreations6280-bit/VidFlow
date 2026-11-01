@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:background="?attr/selectableItemBackground"
+  android:clickable="true"
+  android:focusable="true"
+  android:orientation="vertical"
+  android:padding="@dimen/_5">
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.github.dangiashish.StyledCardView
+      android:id="@+id/cvThumbnail"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:background_Color="@color/color_background"
+      app:background_ColorType="solid"
+      app:cornerRadius="@dimen/default_radius"
+      app:stroke_Width="@dimen/_0">
+
+      <ImageView
+        android:id="@+id/imgThumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100"
+        android:adjustViewBounds="true"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_media_placeholder"
+        tools:ignore="ImageContrastCheck"
+        tools:minHeight="@dimen/_100" />
+    </com.github.dangiashish.StyledCardView>
+
+    <TextView
+      android:id="@+id/tvDuration"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignEnd="@id/cvThumbnail"
+      android:layout_alignBottom="@id/cvThumbnail"
+      android:layout_margin="@dimen/_8"
+      android:background="@drawable/ic_rd_transparent_white_color"
+      android:backgroundTint="@color/color_text_primary"
+      android:fontFamily="@font/font_family_regular"
+      android:paddingHorizontal="@dimen/_6"
+      android:paddingVertical="@dimen/_2"
+      android:textColor="@color/color_surface"
+      android:textSize="@dimen/smaller_text_size"
+      tools:ignore="SpUsage,TextSizeCheck,TextContrastCheck"
+      tools:text="04:32" />
+  </RelativeLayout>
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_8"
+    android:paddingHorizontal="@dimen/_4">
+
+    <ImageView
+      android:id="@+id/btnMenu"
+      android:layout_width="@dimen/_32"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:background="@drawable/bg_button_negative"
+      android:clickable="true"
+      android:importantForAccessibility="no"
+      android:paddingLeft="@dimen/_8"
+      android:paddingTop="@dimen/_8"
+      android:paddingRight="@dimen/_8"
+      android:paddingBottom="@dimen/_10"
+      android:src="@drawable/ic_more_vert"
+      app:tint="@color/color_primary_variant"
+      tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+      android:id="@+id/tvTitle"
+      style="@style/style_textviews"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="@dimen/_0"
+      android:layout_toStartOf="@id/btnMenu"
+      android:ellipsize="end"
+      android:fontFamily="@font/font_family_regular"
+      android:maxLines="2"
+      android:minLines="1"
+      android:paddingTop="@dimen/_0"
+      android:singleLine="false"
+      android:textColor="@color/color_primary_variant"
+      android:textSize="@dimen/small_text_size"
+      tools:ignore="SpUsage,TextSizeCheck"
+      tools:text="@string/label_sample_video_title" />
+
+    <TextView
+      android:id="@+id/tvAuthor"
+      style="@style/style_textviews"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/tvTitle"
+      android:layout_marginLeft="@dimen/_0"
+      android:layout_marginTop="@dimen/_1"
+      android:layout_marginRight="@dimen/_0"
+      android:layout_marginBottom="@dimen/_0"
+      android:layout_toStartOf="@id/btnMenu"
+      android:fontFamily="@font/font_family_regular"
+      android:textColor="@color/color_text_secondary"
+      android:textSize="@dimen/smaller_text_size"
+      tools:ignore="SpUsage,TextSizeCheck,TextContrastCheck"
+      tools:text="Akhil Sachdeva" />
+
+    <TextView
+      android:id="@+id/tvMetadata"
+      style="@style/style_textviews"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/tvAuthor"
+      android:layout_marginLeft="@dimen/_0"
+      android:layout_marginTop="@dimen/_1"
+      android:layout_marginRight="@dimen/_0"
+      android:layout_marginBottom="@dimen/_0"
+      android:layout_toStartOf="@id/btnMenu"
+      android:fontFamily="@font/font_family_light"
+      android:textColor="@color/color_text_secondary"
+      android:textSize="@dimen/smallest_text_size"
+      tools:ignore="SpUsage,TextSizeCheck,TextContrastCheck"
+      tools:text="98M views • 2 months ago" />
+
+  </RelativeLayout>
+</LinearLayout>

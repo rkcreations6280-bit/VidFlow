@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="label_select_language">ਭਾਸ਼ਾ ਚੁਣੋ</string>
+  <string name="title_skip_for_now">ਹੁਣੇ ਛੱਡੋ</string>
+  <string name="subtext_vidflow_downloader_tagline">ਡਾਊਨਲੋਡ ਕਰੋ, ਦੇਖੋ ਅਤੇ ਦੋਸਤਾਂ ਨਾਲ ਸਾਂਝਾ ਕਰੋ</string>
+  <string name="subtext_app_splash_credit">ਭਾਰਤ ਵਿੱਚ ❤️ ਨਾਲ ਬਣਾਇਆ ਗਿਆ 🇮🇳</string>
+  <string name="text_send_feedback_msg_at_homepage"><b>ਅੱਜ ਲਈ ਬੱਸ ਇੰਨਾ ਹੀ।</b> ਕੋਈ ਸੁਝਾਅ ਜਾਂ ਫੀਡਬੈਕ ਹੈ? ਅਸੀਂ ਤੁਹਾਡੇ ਤੋਂ ਸੁਣਨਾ ਚਾਹੁੰਦੇ ਹਾਂ। <a>ਸੁਨੇਹਾ ਭੇਜਣ ਲਈ ਇੱਥੇ ਕਲਿੱਕ ਕਰੋ।</a></string>
+
+  <string name="label_unlock_requires">ਅਨਲੌਕ ਕਰਨ ਲਈ ਲੋੜੀਂਦਾ ਹੈ</string>
+  <string name="label_setup_device_password">ਪਹਿਲਾਂ ਡਿਵਾਈਸ ਲੌਕ ਸੈੱਟਅੱਪ ਕਰੋ</string>
+  <string name="hint_authentication_failed">ਪ੍ਰਮਾਣਿਕਤਾ ਅਸਫਲ ਰਹੀ ਜਾਂ ਰੱਦ ਕੀਤੀ ਗਈ</string>
+  <string name="label_cancel">ਰੱਦ ਕਰੋ</string>
+
+  <string name="label_no">ਨਹੀਂ</string>
+  <string name="label_performed">ਕੀਤਾ ਗਿਆ</string>
+  <string name="label_not_performed">ਨਹੀਂ ਕੀਤਾ ਗਿਆ</string>
+  <string name="label_click_here_to_open">ਖੋਲ੍ਹਣ ਲਈ ਇੱਥੇ ਕਲਿੱਕ ਕਰੋ</string>
+  <string name="label_sounds">ਆਵਾਜ਼ਾਂ</string>
+  <string name="label_archives">ਆਰਕਾਈਵਜ਼</string>
+  <string name="label_programs">ਪ੍ਰੋਗਰਾਮ</string>
+  <string name="label_videos">ਵੀਡੀਓ</string>
+  <string name="label_documents">ਦਸਤਾਵੇਜ਼</string>
+  <string name="label_images">ਚਿੱਤਰ</string>
+  <string name="label_others">ਹੋਰ</string>
+
+  <string name="label_mobile_user_agent">ਮੋਬਾਈਲ ਯੂਜ਼ਰ ਏਜੰਟ</string>
+  <string name="label_unknown">ਅਣਜਾਣ</string>
+  <string name="label_sharing_media_file">ਮੀਡੀਆ ਫਾਈਲ ਸਾਂਝੀ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ…</string>
+
+  <string name="label_send_feedback">ਫੀਡਬੈਕ</string>
+  <string name="subtitle_feedback">VidFlow ਨੂੰ ਬਿਹਤਰ ਬਣਾਉਣ ਵਿੱਚ ਸਾਡੀ ਮਦਦ ਕਰੋ 💙</string>
+  <string name="label_experience">ਤੁਹਾਡਾ ਅਨੁਭਵ ਕਿਹੋ ਜਿਹਾ ਰਿਹਾ?</string>
+  <string name="label_excellent">ਬਹੁਤ ਵਧੀਆ</string>
+  <string name="label_good">ਵਧੀਆ</string>
+  <string name="label_average">ਔਸਤ</string>
+  <string name="label_poor">ਮਾੜਾ</string>
+  <string name="label_amazing">ਸ਼ਾਨਦਾਰ</string>
+  <string name="label_subject">ਵਿਸ਼ਾ</string>
+  <string name="hint_feedback_subject">ਸਾਨੂੰ ਸੰਖੇਪ ਵਿੱਚ ਦੱਸੋ ਕਿ ਇਹ ਕਿਸ ਬਾਰੇ ਹੈ</string>
+  <string name="label_describe_feedback">ਆਪਣੇ ਫੀਡਬੈਕ ਦਾ ਵਰਣਨ ਕਰੋ</string>
+  <string name="hint_describe_feedback">ਸਾਨੂੰ ਸਮਝਣ ਅਤੇ ਸੁਧਾਰਨ ਲਈ ਵਿਸਥਾਰ ਵਿੱਚ ਦੱਸੋ…</string>
+  <string name="label_attach_screenshot">ਸਕ੍ਰੀਨਸ਼ੌਟ ਨੱਥੀ ਕਰੋ (ਵਿਕਲਪਿਕ)</string>
+  <string name="label_upload_image">ਚਿੱਤਰ ਅੱਪਲੋਡ ਕਰੋ</string>
+  <string name="label_upload_image_hint">PNG, JPG 5MB ਤੱਕ</string>
+  <string name="label_email">ਈਮੇਲ (ਵਿਕਲਪਿਕ)</string>
+  <string name="hint_feedback_email">ਆਪਣਾ ਈਮੇਲ ਪਤਾ ਦਰਜ ਕਰੋ</string>
+  <string name="subtext_email">ਜੇਕਰ ਲੋੜ ਹੋਵੇ ਤਾਂ ਅਸੀਂ ਤੁਹਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰਾਂਗੇ</string>
+  <string name="btn_send_feedback">ਫੀਡਬੈਕ ਭੇਜੋ</string>
+  <string name="footer_feedback_safe">ਤੁਹਾਡਾ ਫੀਡਬੈਕ 100% ਸੁਰੱਖਿਅਤ ਅਤੇ ਗੁਪਤ ਹੈ</string>
+  <string name="title_zero_slash_five_hundred">0/500</string>
+</resources>

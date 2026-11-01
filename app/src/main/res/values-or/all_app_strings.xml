@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="label_select_language">ଭାଷା ଚୟନ କରନ୍ତୁ</string>
+  <string name="title_skip_for_now">ବର୍ତ୍ତମାନ ପାଇଁ ଛାଡନ୍ତୁ</string>
+  <string name="subtext_vidflow_downloader_tagline">ଡାଉନଲୋଡ୍ କରନ୍ତୁ, ଦେଖନ୍ତୁ ଏବଂ ସାଙ୍ଗମାନଙ୍କ ସହିତ ସେୟାର କରନ୍ତୁ</string>
+  <string name="subtext_app_splash_credit">ଭାରତରେ ❤️ ସହିତ ନିର୍ମିତ 🇮🇳</string>
+  <string name="text_send_feedback_msg_at_homepage"><b>ଆଜି ପାଇଁ ଏତିକି ।</b> କିଛି ପରାମର୍ଶ କିମ୍ବା ମତାମତ ଅଛି କି? ଆମେ ଆପଣଙ୍କଠାରୁ ଶୁଣିବାକୁ ଚାହୁଁ । <a>ମେସେଜ୍ ପଠାଇବା ପାଇଁ ଏଠାରେ କ୍ଲିକ୍ କରନ୍ତୁ ।</a></string>
+
+  <string name="label_unlock_requires">ଅନଲକ୍ ପାଇଁ ଆବଶ୍ୟକ</string>
+  <string name="label_setup_device_password">ପ୍ରଥମେ ଡିଭାଇସ୍ ଲକ୍ ସେଟ୍ ଅପ୍ କରନ୍ତୁ</string>
+  <string name="hint_authentication_failed">ପ୍ରାମାଣିକିକରଣ ବିଫଳ କିମ୍ବା ବାତିଲ ହେଲା</string>
+  <string name="label_cancel">ବାତିଲ୍ କରନ୍ତୁ</string>
+
+  <string name="label_no">ନା</string>
+  <string name="label_performed">ସମ୍ପାଦିତ</string>
+  <string name="label_not_performed">ସମ୍ପାଦିତ ହୋଇନାହିଁ</string>
+  <string name="label_click_here_to_open">ଖୋଲିବା ପାଇଁ ଏଠାରେ କ୍ଲିକ୍ କରନ୍ତୁ</string>
+  <string name="label_sounds">ଶବ୍ଦ</string>
+  <string name="label_archives">ଆର୍କାଇଭ୍</string>
+  <string name="label_programs">ପ୍ରୋଗ୍ରାମ</string>
+  <string name="label_videos">ଭିଡିଓ</string>
+  <string name="label_documents">ଦଲିଲ</string>
+  <string name="label_images">ଛବି</string>
+  <string name="label_others">ଅନ୍ୟାନ୍ୟ</string>
+
+  <string name="label_mobile_user_agent">ମୋବାଇଲ୍ ୟୁଜର୍ ଏଜେଣ୍ଟ</string>
+  <string name="label_unknown">ଅଜ୍ଞାତ</string>
+  <string name="label_sharing_media_file">ମିଡିଆ ଫାଇଲ୍ ସେୟାର୍ ହେଉଛି…</string>
+
+  <string name="label_send_feedback">ମତାମତ</string>
+  <string name="subtitle_feedback">VidFlow କୁ ଉନ୍ନତ କରିବାରେ ଆମକୁ ସାହାଯ୍ୟ କରନ୍ତୁ 💙</string>
+  <string name="label_experience">ଆପଣଙ୍କର ଅଭିଜ୍ଞତା କିପରି ଥିଲା?</string>
+  <string name="label_excellent">ଉତ୍କୃଷ୍ଟ</string>
+  <string name="label_good">ଭଲ</string>
+  <string name="label_average">ମଧ୍ୟମ</string>
+  <string name="label_poor">ଖରାପ</string>
+  <string name="label_amazing">ଆଶ୍ଚର୍ଯ୍ୟଜନକ</string>
+  <string name="label_subject">ବିଷୟ</string>
+  <string name="hint_feedback_subject">ଏହା କ’ଣ ବିଷୟରେ ଆମକୁ ସଂକ୍ଷେପରେ କୁହନ୍ତୁ</string>
+  <string name="label_describe_feedback">ଆପଣଙ୍କର ମତାମତ ବର୍ଣ୍ଣନା କରନ୍ତୁ</string>
+  <string name="hint_describe_feedback">ଆମକୁ ବୁଝିବା ଏବଂ ଉନ୍ନତ କରିବାରେ ସାହାଯ୍ୟ କରିବାକୁ ବିସ୍ତୃତ ଭାବରେ କୁହନ୍ତୁ…</string>
+  <string name="label_attach_screenshot">ସ୍କ୍ରିନସଟ୍ ସଂଲଗ୍ନ କରନ୍ତୁ (ବିକଳ୍ପ)</string>
+  <string name="label_upload_image">ଛବି ଅପଲୋଡ୍ କରନ୍ତୁ</string>
+  <string name="label_upload_image_hint">PNG, JPG 5MB ପର୍ଯ୍ୟନ୍ତ</string>
+  <string name="label_email">ଇମେଲ୍ (ବିକଳ୍ପ)</string>
+  <string name="hint_feedback_email">ଆପଣଙ୍କର ଇମେଲ୍ ଠିକଣା ପ୍ରବେଶ କରନ୍ତୁ</string>
+  <string name="subtext_email">ଯଦି ଆବଶ୍ୟକ ହୁଏ ଆମେ ଆପଣଙ୍କ ସହିତ ଯୋଗାଯୋଗ କରିବୁ</string>
+  <string name="btn_send_feedback">ମତାମତ ପଠାନ୍ତୁ</string>
+  <string name="footer_feedback_safe">ଆପଣଙ୍କର ମତାମତ 100% ସୁରକ୍ଷିତ ଏବଂ ଗୋପନୀୟ ଅଟେ</string>
+  <string name="title_zero_slash_five_hundred">0/500</string>
+</resources>

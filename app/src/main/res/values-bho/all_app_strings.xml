@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="label_select_language">भाषा चुनीं</string>
+  <string name="title_skip_for_now">अभी छोड़ दीं</string>
+  <string name="subtext_vidflow_downloader_tagline">डाउनलोड करीं, देखीं अउर दोस्तन के साथ साझा करीं</string>
+  <string name="subtext_app_splash_credit">भारत में ❤️ के साथ बनावल गइल बा 🇮🇳</string>
+  <string name="text_send_feedback_msg_at_homepage"><b>आज खातिर बस एतने।</b> सुझाव या प्रतिक्रिया बा? हमनी के रउआ से सुनल अच्छा लागी। <a>संदेश भेजे खातिर इहाँ क्लिक करीं।</a></string>
+
+  <string name="label_unlock_requires">अनलॉक खातिर जरूरी बा</string>
+  <string name="label_setup_device_password">पहिले डिवाइस लॉक सेट करीं</string>
+  <string name="hint_authentication_failed">प्रमाणीकरण विफल भा रद्द क दिहल गइल</string>
+  <string name="label_cancel">रद्द करीं</string>
+
+  <string name="label_no">नाहीं</string>
+  <string name="label_performed">कइल गइल</string>
+  <string name="label_not_performed">नाहीं कइल गइल</string>
+  <string name="label_click_here_to_open">खोले खातिर इहाँ क्लिक करीं</string>
+  <string name="label_sounds">आवाज</string>
+  <string name="label_archives">अभिलेखागार</string>
+  <string name="label_programs">प्रोग्राम</string>
+  <string name="label_videos">वीडियो</string>
+  <string name="label_documents">दस्तावेज</string>
+  <string name="label_images">फोटो</string>
+  <string name="label_others">अउर सब</string>
+
+  <string name="label_mobile_user_agent">मोबाइल यूजर एजेंट</string>
+  <string name="label_unknown">अंजान</string>
+  <string name="label_sharing_media_file">मीडिया फाइल साझा कइल जा रहल बा…</string>
+
+  <string name="label_send_feedback">प्रतिक्रिया</string>
+  <string name="subtitle_feedback">VidFlow के सुधारे में हमनी के मदद करीं 💙</string>
+  <string name="label_experience">रउआ अनुभव कइसन रहल?</string>
+  <string name="label_excellent">बहुत नीक</string>
+  <string name="label_good">नीक</string>
+  <string name="label_average">ठीक-ठाक</string>
+  <string name="label_poor">बेकार</string>
+  <string name="label_amazing">गजब</string>
+  <string name="label_subject">विषय</string>
+  <string name="hint_feedback_subject">संक्षेप में हमनी के बताईं कि ई काहें के बारे में बा</string>
+  <string name="label_describe_feedback">अपन प्रतिक्रिया बताईं</string>
+  <string name="hint_describe_feedback">हमनी के विस्तार से बताईं ताकि हमनी समझ सकीं अउर सुधार सकीं…</string>
+  <string name="label_attach_screenshot">स्क्रीनशॉट जोड़ीं (वैकल्पिक)</string>
+  <string name="label_upload_image">फोटो अपलोड करीं</string>
+  <string name="label_upload_image_hint">PNG, JPG 5MB तक</string>
+  <string name="label_email">ईमेल (वैकल्पिक)</string>
+  <string name="hint_feedback_email">अपन ईमेल पता लिखीं</string>
+  <string name="subtext_email">अगर जरूरत पड़ल त हमनी रउआ से संपर्क करब</string>
+  <string name="btn_send_feedback">प्रतिक्रिया भेजीं</string>
+  <string name="footer_feedback_safe">रउआ प्रतिक्रिया 100% सुरक्षित अउर गोपनीय बा</string>
+  <string name="title_zero_slash_five_hundred">0/500</string>
+</resources>

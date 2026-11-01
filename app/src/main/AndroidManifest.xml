@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ForegroundServicesPolicy, AllFilesAccessPolicy, ScopedStorage">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        android:maxSdkVersion="28" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <application
+        android:name="coreUtils.base.BaseApplication"
+        android:enableOnBackInvokedCallback="true"
+        android:extractNativeLibs="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/title_app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/style.application"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="33">
+
+        <activity
+            android:name="userInterface.openingSplash.LauncherActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="userInterface.intentHandler.IntentHandlerActivity"
+            android:label="VidFlow Download"
+            android:clearTaskOnLaunch="true"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:noHistory="true"
+            android:resizeableActivity="true"
+            android:taskAffinity=""
+            android:theme="@style/style.transparent_activity"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="userInterface.intentHandler.PlayShareActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:label="VidFlow Play"
+            android:noHistory="true"
+            android:taskAffinity=""
+            android:theme="@style/style.transparent_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+                <data android:mimeType="video/*" />
+                <data android:mimeType="audio/*" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="userInterface.openingSplash.OpeningActivity" />
+        <activity android:name="userInterface.languagePicker.LanguageActivity" />
+        <activity android:name="userInterface.termsConsPolicy.TermsPolicyActivity" />
+        <activity android:name="userInterface.userPrivacy.PrivacyPolicyActivity" />
+        <activity android:name="userInterface.aboutUs.AboutActivity" />
+        <activity android:name="userInterface.appCrashed.AppCrashedActivity" />
+
+        <!-- Standalone crash / hang / black-screen log viewer. Separate process so it
+             survives when the main app process dies. -->
+        <activity
+            android:name="sysModules.crashedHandler.CrashLogActivity"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:process=":crashlog"
+            android:taskAffinity="com.nextgen.crashlog"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar" />
+
+        <activity android:name="userInterface.mainScreen.MainActivity" />
+        <activity
+            android:name="userInterface.watchVideo.WatchVideoActivity"
+            android:exported="true"
+            android:label="VidFlow Player">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:mimeType="video/*" />
+                <data android:mimeType="audio/*" />
+                <data android:mimeType="application/x-mpegURL" />
+                <data android:mimeType="application/vnd.apple.mpegurl" />
+                <data android:mimeType="application/dash+xml" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="sysModules.downloadSys.DownloadService"
+            android:exported="false"
+            android:foregroundServiceType="dataSync" />
+
+        <service
+            android:name="sysModules.sysPlayer.service.PlaybackService"
+            android:exported="false"
+            android:foregroundServiceType="mediaPlayback" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.SEND" />
+
+            <data android:mimeType="message/rfc822" />
+        </intent>
+
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+
+            <category android:name="android.intent.category.BROWSABLE" />
+
+            <data android:scheme="https" />
+        </intent>
+
+        <package android:name="com.google.android.youtube" />
+        <package android:name="com.instagram.android" />
+        <package android:name="com.facebook.katana" />
+        <package android:name="com.whatsapp" />
+        <package android:name="com.ted.android" />
+        <package android:name="com.google.android.apps.youtube.music" />
+        <package android:name="com.soundcloud.android" />
+        <package android:name="com.pinterest" />
+        <package android:name="com.zhiliaoapp.musically" />
+        <package android:name="com.dailymotion.dailymotion" />
+        <package android:name="com.reddit.frontpage" />
+        <package android:name="com.twitter.android" />
+    </queries>
+</manifest>

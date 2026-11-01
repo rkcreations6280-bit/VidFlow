@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.dangiashish.StyledCardView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  app:background_ColorType="gradient_linear"
+  app:background_Gradient_Angle="45"
+  app:background_Gradient_Color0="@color/color_card"
+  app:background_Gradient_Color1="@color/color_surface"
+  app:background_Type="fill_stroke"
+  app:cornerRadius="@dimen/default_radius"
+  app:shadow0_Outer_Alpha=".1"
+  app:shadow0_Outer_Angle="-45"
+  app:shadow0_Outer_Blur="@dimen/_5"
+  app:shadow0_Outer_Color="@color/color_primary_variant"
+  app:shadow0_Outer_Distance="@dimen/_5"
+  app:shadow1_Outer_Alpha="0.1"
+  app:shadow1_Outer_Angle="360"
+  app:shadow1_Outer_Blur="@dimen/_5"
+  app:shadow1_Outer_Color="@color/color_secondary"
+  app:shadow1_Outer_Distance="@dimen/_2"
+  app:shadow_Outer_Area="@dimen/_10"
+  app:stroke_Alpha=".3"
+  app:stroke_ColorType="gradient_sweep"
+  app:stroke_Gradient_Angle="-45"
+  app:stroke_Gradient_Color0="@color/color_primary"
+  app:stroke_Gradient_Color1="@color/color_primary_variant"
+  app:stroke_Width="1dp">
+
+  <FrameLayout
+    android:id="@+id/layoutMediaPreview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="UselessParent">
+
+    <ImageView
+      android:id="@+id/imgThumbnail"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:importantForAccessibility="no"
+      android:minHeight="@dimen/_200"
+      android:scaleType="centerCrop"
+      android:src="@drawable/bg_media_placeholder"
+      tools:ignore="ImageContrastCheck" />
+
+    <FrameLayout
+      android:id="@+id/playerContainer"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
+
+    <include
+      android:id="@+id/layoutQuickControlsOverlay"
+      layout="@layout/activity_watch_video_1_plc_1"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_gravity="center" />
+
+    <include
+      android:id="@+id/layoutPlaybackControls"
+      layout="@layout/activity_watch_video_1_plc_2"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/_35"
+      android:layout_gravity="bottom" />
+
+    <include
+      android:id="@+id/layoutQualityBadge"
+      layout="@layout/activity_watch_video_1_plc_3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="top|right"
+      android:layout_marginTop="@dimen/_5"
+      android:layout_marginRight="@dimen/_10" />
+
+  </FrameLayout>
+
+</com.github.dangiashish.StyledCardView>

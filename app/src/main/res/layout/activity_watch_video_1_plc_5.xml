@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal">
+
+  <TextView
+    android:id="@+id/btnFollowChannel"
+    style="@style/style_textviews"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/_34"
+    android:layout_gravity="center_vertical"
+    android:layout_marginLeft="@dimen/_0"
+    android:layout_marginTop="@dimen/_0"
+    android:layout_marginRight="@dimen/_5"
+    android:layout_marginBottom="@dimen/_0"
+    android:background="@drawable/bg_button_accent"
+    android:clickable="true"
+    android:drawableLeft="@drawable/ic_notification_add_small"
+    android:drawablePadding="@dimen/_5"
+    android:drawableTint="@color/color_surface"
+    android:fontFamily="@font/font_family_medium"
+    android:gravity="center_vertical"
+    android:padding="@dimen/_10"
+    android:shadowColor="@color/color_text_hint"
+    android:shadowDx=".1"
+    android:shadowDy=".1"
+    android:shadowRadius=".1"
+    android:text="@string/label_subscribe"
+    android:textColor="@color/color_surface"
+    android:textSize="@dimen/message_text_size"
+    tools:ignore="SpUsage,UseCompatTextViewDrawableXml,
+    TextSizeCheck,TextContrastCheck,TouchTargetSizeCheck,
+    VisualLintSystemUi,VisualLintSystemUi" />
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal">
+
+    <LinearLayout
+      android:id="@+id/btnSaveToPlaylist"
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:layout_gravity="center_vertical"
+      android:layout_marginRight="@dimen/_5"
+      android:layout_weight="1"
+      android:background="@drawable/bg_button_negative"
+      android:clickable="true"
+      android:orientation="vertical"
+      android:paddingTop="2.5dp"
+      tools:ignore="TouchTargetSizeCheck">
+
+      <ImageView
+        android:layout_width="@dimen/_17"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:importantForAccessibility="no"
+        android:src="@drawable/ic_library_add"
+        android:tint="@color/color_text_primary"
+        tools:ignore="UseAppTint" />
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ellipsize="end"
+        android:fontFamily="@font/font_family_regular"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/label_playlist"
+        android:textColor="@color/color_text_primary"
+        android:textSize="@dimen/smaller_text_size"
+        tools:ignore="SpUsage,TextContrastCheck,TextSizeCheck,
+        VisualLintSystemUi,VisualLintSystemUi" />
+    </LinearLayout>
+
+    <LinearLayout
+      android:id="@+id/btnBackgroundPlay"
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:layout_gravity="center_vertical"
+      android:layout_marginRight="@dimen/_5"
+      android:layout_weight="1"
+      android:background="@drawable/bg_button_negative"
+      android:clickable="true"
+      android:orientation="vertical"
+      android:paddingTop="2.5dp"
+      tools:ignore="TouchTargetSizeCheck">
+
+      <ImageView
+        android:layout_width="@dimen/_17"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:importantForAccessibility="no"
+        android:src="@drawable/ic_music_cast"
+        android:tint="@color/color_text_primary"
+        tools:ignore="UseAppTint" />
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ellipsize="end"
+        android:fontFamily="@font/font_family_regular"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/label_play_audio"
+        android:textColor="@color/color_text_primary"
+        android:textSize="@dimen/smaller_text_size"
+        tools:ignore="SpUsage,TextContrastCheck,TextSizeCheck,
+        VisualLintSystemUi,VisualLintSystemUi" />
+    </LinearLayout>
+
+    <LinearLayout
+      android:id="@+id/btnWhatsapp"
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:layout_gravity="center_vertical"
+      android:layout_marginRight="@dimen/_5"
+      android:layout_weight="1"
+      android:background="@drawable/bg_button_negative"
+      android:clickable="true"
+      android:orientation="vertical"
+      android:paddingTop="2.5dp"
+      tools:ignore="TouchTargetSizeCheck">
+
+      <ImageView
+        android:layout_width="@dimen/_17"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:importantForAccessibility="no"
+        android:src="@drawable/img_whatsapp"
+        tools:ignore="UseAppTint,ImageContrastCheck" />
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ellipsize="end"
+        android:fontFamily="@font/font_family_regular"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/label_share_link"
+        android:textColor="@color/color_text_primary"
+        android:textSize="@dimen/smaller_text_size"
+        tools:ignore="SpUsage,TextContrastCheck,TextSizeCheck,
+        VisualLintSystemUi,VisualLintSystemUi" />
+    </LinearLayout>
+
+    <LinearLayout
+      android:id="@+id/btnDownload"
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:layout_gravity="center_vertical"
+      android:layout_marginRight="@dimen/_5"
+      android:layout_weight="1"
+      android:background="@drawable/bg_button_negative"
+      android:clickable="true"
+      android:orientation="vertical"
+      android:paddingTop="2.5dp"
+      tools:ignore="TouchTargetSizeCheck">
+
+      <ImageView
+        android:layout_width="@dimen/_17"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:importantForAccessibility="no"
+        android:src="@drawable/img_download"
+        tools:ignore="UseAppTint,ImageContrastCheck" />
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ellipsize="end"
+        android:fontFamily="@font/font_family_regular"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/label_download"
+        android:textColor="@color/color_text_primary"
+        android:textSize="@dimen/smaller_text_size"
+        tools:ignore="SpUsage,TextContrastCheck,TextSizeCheck,
+        VisualLintSystemUi,VisualLintSystemUi" />
+    </LinearLayout>
+  </LinearLayout>
+
+</LinearLayout>

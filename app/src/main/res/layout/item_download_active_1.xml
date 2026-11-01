@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/itemRoot"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_marginBottom="10dp"
+  android:background="@drawable/bg_v2_item"
+  android:gravity="center_vertical"
+  android:orientation="horizontal"
+  android:padding="8dp">
+
+    <FrameLayout
+      android:layout_width="118dp"
+      android:layout_height="76dp">
+
+      <ImageView
+        android:id="@+id/imgThumb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_v2_thumb"
+        android:clipToOutline="true"
+        android:importantForAccessibility="no"
+        android:scaleType="centerCrop" />
+
+      <TextView
+        android:id="@+id/tvDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_margin="5dp"
+        android:background="@drawable/bg_v2_badge"
+        android:fontFamily="@font/font_family_semibold"
+        android:paddingStart="7dp"
+        android:paddingTop="2dp"
+        android:paddingEnd="7dp"
+        android:paddingBottom="2dp"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp" />
+
+      <TextView
+        android:id="@+id/tvSource"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+        android:layout_margin="5dp"
+        android:background="@drawable/bg_v2_badge"
+        android:fontFamily="@font/font_family_semibold"
+        android:paddingStart="7dp"
+        android:paddingTop="2dp"
+        android:paddingEnd="7dp"
+        android:paddingBottom="2dp"
+        android:textColor="@color/style_color_primary"
+        android:textSize="10sp" />
+    </FrameLayout>
+
+    <LinearLayout
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="10dp"
+      android:layout_weight="1"
+      android:orientation="vertical">
+
+      <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="@font/font_family_semibold"
+        android:maxLines="2"
+        android:textColor="@color/style_color_text_primary"
+        android:textSize="15sp" />
+
+      <ProgressBar
+        android:id="@+id/progress"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginTop="8dp"
+        android:max="100"
+        android:maxHeight="8dp"
+        android:minHeight="8dp"
+        android:progressDrawable="@drawable/notif_progress_bar" />
+
+      <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/bg_v2_pill"
+        android:ellipsize="end"
+        android:fontFamily="@font/font_family_regular"
+        android:maxLines="1"
+        android:paddingStart="10dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="4dp"
+        android:textColor="@color/style_color_text_secondary"
+        android:textSize="12sp" />
+    </LinearLayout>
+
+    <ImageView
+      android:id="@+id/btnPause"
+      android:layout_width="38dp"
+      android:layout_height="38dp"
+      android:layout_marginStart="2dp"
+      android:contentDescription="@string/v2_pause"
+      android:padding="8dp"
+      android:src="@drawable/ic_v2_pause"
+      android:tint="@color/style_color_primary" />
+
+    <ImageView
+      android:id="@+id/btnCancel"
+      android:layout_width="38dp"
+      android:layout_height="38dp"
+      android:layout_marginStart="4dp"
+      android:contentDescription="@string/v2_cancel"
+      android:padding="8dp"
+      android:src="@drawable/ic_v2_cancel"
+      android:tint="@color/style_color_primary" />
+</LinearLayout>

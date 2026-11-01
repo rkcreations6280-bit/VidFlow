@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <declare-styleable name="VideoSeekBar">
+
+    <attr name="vsb_thumbSize" format="dimension" />
+    <attr name="vsb_trackHeight" format="dimension" />
+
+    <attr name="vsb_trackColor" format="color" />
+    <attr name="vsb_bufferColor" format="color" />
+    <attr name="vsb_progressColor" format="color" />
+
+    <attr name="vsb_thumbColor" format="color" />
+    <attr name="vsb_thumbPadding" format="dimension"/>
+
+  </declare-styleable>
+
+</resources>

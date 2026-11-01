@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+  <com.google.android.material.card.MaterialCardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/style_color_card"
+    app:cardCornerRadius="5dp"
+    app:strokeColor="@color/style_color_card_stroke"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="3dp"
+      android:layout_marginBottom="3dp"
+      android:orientation="vertical"
+      android:padding="10dp"
+      tools:ignore="UselessLeaf">
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+          android:layout_width="35dp"
+          android:layout_height="35dp"
+          android:layout_gravity="top|left"
+          android:adjustViewBounds="true"
+          android:background="@drawable/bg_color_circle"
+          android:backgroundTint="@color/style_color_primary_light"
+          android:padding="5dp"
+          android:scaleType="centerInside"
+          android:tint="@color/style_color_icon"
+          app:srcCompat="@drawable/ic_data_thresholding" />
+
+        <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="top"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:orientation="vertical">
+
+          <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_family_regular"
+            android:text="@string/label_how_we_use_ur_data"
+            android:textColor="@color/style_color_text_primary"
+            android:textSize="@dimen/normal_text_size"
+            tools:ignore="SpUsage,TextSizeCheck" />
+
+          <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_family_regular"
+            android:text="@string/label_ur_data_is_used_to_"
+            android:textColor="@color/style_color_text_secondary"
+            android:textSize="@dimen/small_text_size"
+            tools:ignore="SpUsage,TextSizeCheck" />
+        </LinearLayout>
+      </LinearLayout>
+
+      <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:stretchColumns="1">
+
+        <TableRow android:layout_marginBottom="3dp">
+
+          <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_check_circle_small"
+            android:drawablePadding="5dp"
+            android:drawableTint="@color/style_color_icon"
+            android:ellipsize="end"
+            android:fontFamily="@font/font_family_regular"
+            android:gravity="left|center_vertical"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            android:paddingTop="2dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="2dp"
+            android:singleLine="true"
+            android:text="@string/label_improve_app_performance"
+            android:textColor="@color/style_color_text_primary"
+            android:textSize="@dimen/small_text_size"
+            tools:ignore="SpUsage,TextSizeCheck" />
+
+          <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_check_circle_small"
+            android:drawablePadding="5dp"
+            android:drawableTint="@color/style_color_icon"
+            android:ellipsize="end"
+            android:fontFamily="@font/font_family_regular"
+            android:gravity="left|center_vertical"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            android:paddingTop="2dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="2dp"
+            android:singleLine="true"
+            android:text="@string/label_provide_customer_support"
+            android:textColor="@color/style_color_text_primary"
+            android:textSize="@dimen/small_text_size"
+            tools:ignore="SpUsage,TextSizeCheck" />
+        </TableRow>
+
+        <TableRow>
+
+          <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_check_circle_small"
+            android:drawablePadding="5dp"
+            android:drawableTint="@color/style_color_icon"
+            android:ellipsize="end"
+            android:fontFamily="@font/font_family_regular"
+            android:gravity="left|center_vertical"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            android:paddingTop="2dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="2dp"
+            android:singleLine="true"
+            android:text="@string/label_fix_bug_and_crashes"
+            android:textColor="@color/style_color_text_primary"
+            android:textSize="@dimen/small_text_size"
+            tools:ignore="SpUsage,TextSizeCheck" />
+
+          <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_check_circle_small"
+            android:drawablePadding="5dp"
+            android:drawableTint="@color/style_color_icon"
+            android:ellipsize="end"
+            android:fontFamily="@font/font_family_regular"
+            android:gravity="left|center_vertical"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            android:paddingTop="2dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="2dp"
+            android:singleLine="true"
+            android:text="@string/label_deliver_updates_securely"
+            android:textColor="@color/style_color_text_primary"
+            android:textSize="@dimen/small_text_size"
+            tools:ignore="SpUsage,TextSizeCheck" />
+        </TableRow>
+      </TableLayout>
+    </LinearLayout>
+  </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

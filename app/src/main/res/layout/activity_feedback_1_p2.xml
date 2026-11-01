@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+
+  <com.google.android.material.textfield.TextInputLayout
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/hint_feedback_email"
+    app:boxBackgroundColor="@color/style_color_input_background"
+    app:boxBackgroundMode="outline"
+    app:boxCornerRadiusBottomEnd="5dp"
+    app:boxCornerRadiusBottomStart="5dp"
+    app:boxCornerRadiusTopEnd="5dp"
+    app:boxCornerRadiusTopStart="5dp"
+    app:boxStrokeColor="@color/bg_edittext_stroke"
+    app:boxStrokeErrorColor="@color/style_color_input_border_error"
+    app:boxStrokeWidth="1dp"
+    app:boxStrokeWidthFocused="1dp"
+    app:hintTextColor="@color/bg_edittext_stroke">
+
+    <com.google.android.material.textfield.TextInputEditText
+      android:id="@+id/editEmail"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/font_family_regular"
+      android:gravity="top"
+      android:inputType="textMultiLine"
+      android:maxLength="100"
+      android:maxLines="6"
+      android:textColor="@color/style_color_text_primary"
+      android:textCursorDrawable="@drawable/bg_edittext_cursor"
+      android:textSize="@dimen/normal_text_size"
+      tools:ignore="SpUsage,TextSizeCheck,TextContrastCheck,
+                VisualLintTextFieldSize,VisualLintTextFieldSize" />
+  </com.google.android.material.textfield.TextInputLayout>
+
+  <com.google.android.material.textfield.TextInputLayout
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:hint="@string/label_describe_feedback"
+    app:boxBackgroundColor="@color/style_color_input_background"
+    app:boxBackgroundMode="outline"
+    app:boxCornerRadiusBottomEnd="5dp"
+    app:boxCornerRadiusBottomStart="5dp"
+    app:boxCornerRadiusTopEnd="5dp"
+    app:boxCornerRadiusTopStart="5dp"
+    app:boxStrokeColor="@color/bg_edittext_stroke"
+    app:boxStrokeErrorColor="@color/style_color_input_border_error"
+    app:boxStrokeWidth="1dp"
+    app:boxStrokeWidthFocused="1dp"
+    app:counterEnabled="true"
+    app:counterMaxLength="500"
+    app:hintTextColor="@color/bg_edittext_stroke">
+
+    <com.google.android.material.textfield.TextInputEditText
+      android:id="@+id/editFeedback"
+      android:layout_width="match_parent"
+      android:layout_height="90dp"
+      android:fontFamily="@font/font_family_regular"
+      android:gravity="top"
+      android:inputType="textMultiLine"
+      android:maxLength="500"
+      android:maxLines="6"
+      android:textColor="@color/style_color_text_primary"
+      android:textCursorDrawable="@drawable/bg_edittext_cursor"
+      android:textSize="@dimen/normal_text_size"
+      tools:ignore="SpUsage,TextSizeCheck,TextContrastCheck,
+                VisualLintTextFieldSize,VisualLintTextFieldSize" />
+  </com.google.android.material.textfield.TextInputLayout>
+
+  <com.google.android.material.card.MaterialCardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    app:cardBackgroundColor="@color/style_color_card"
+    app:cardCornerRadius="5dp"
+    app:strokeColor="@color/style_color_card_stroke"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:baselineAligned="false"
+      android:orientation="horizontal"
+      android:padding="10dp">
+
+      <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_weight="0.55"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:ellipsize="end"
+          android:fontFamily="@font/font_family_regular"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="@string/label_attach_screenshot"
+          android:textColor="@color/style_color_text_primary"
+          android:textSize="@dimen/normal_text_size"
+          tools:ignore="SpUsage,TextSizeCheck" />
+
+        <com.google.android.material.textview.MaterialTextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/font_family_regular"
+          android:text="@string/hint_attach_screenshot"
+          android:textColor="@color/style_color_text_hint"
+          android:textSize="@dimen/small_text_size"
+          tools:ignore="SpUsage,TextSizeCheck,TextContrastCheck" />
+      </LinearLayout>
+
+      <FrameLayout
+        android:id="@+id/btnUploadPic"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="0.45"
+        android:background="@drawable/bg_button_accent"
+        android:clickable="true"
+        android:orientation="vertical"
+        tools:ignore="TouchTargetSizeCheck">
+
+        <com.google.android.material.imageview.ShapeableImageView
+          android:id="@+id/ivAttachmentPreview"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:src="@drawable/ic_rd_primary_color"
+          app:shapeAppearanceOverlay="@style/rounded_image_view" />
+
+        <com.google.android.material.textview.MaterialTextView
+          android:id="@+id/tvAddImage"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_gravity="center"
+          android:drawableLeft="@drawable/ic_cloud_upload"
+          android:drawablePadding="10dp"
+          android:drawableTint="@color/style_color_icon_inverse"
+          android:fontFamily="@font/font_family_bold"
+          android:gravity="center"
+          android:text="@string/label_add_image"
+          android:textColor="@color/style_color_text_inverse"
+          android:textSize="@dimen/normal_text_size"
+          tools:ignore="SpUsage,TextSizeCheck" />
+
+      </FrameLayout>
+    </LinearLayout>
+  </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

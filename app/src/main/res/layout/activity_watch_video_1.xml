@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/video_item_detail"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/img_bg_activity_v2"
+  android:fitsSystemWindows="true"
+  android:focusableInTouchMode="true"
+  android:orientation="vertical"
+  tools:ignore="SpeakableTextPresentCheck">
+
+  <include
+    android:id="@+id/playerTop"
+    layout="@layout/activity_watch_video_1_plc_0" />
+
+  <include
+    android:id="@+id/videoDetails"
+    layout="@layout/activity_watch_video_1_plc_4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="-10dp" />
+
+  <include
+    android:id="@+id/relatedVideos"
+    layout="@layout/activity_watch_video_1_plc_6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="-10dp" />
+
+</LinearLayout>

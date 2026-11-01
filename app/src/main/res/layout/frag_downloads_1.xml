@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:fitsSystemWindows="true">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:layout_marginStart="12dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginEnd="12dp"
+    android:background="@drawable/bg_v2_card"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp">
+
+    <ImageView
+      android:id="@+id/hdrLeft"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:background="@drawable/bg_v2_icon_btn"
+      android:padding="10dp"
+      android:src="@drawable/ic_v2_back"
+      android:tint="@color/style_color_primary"
+      android:contentDescription="@string/v2_cd_back" />
+
+    <TextView
+      android:id="@+id/hdrTitle"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:ellipsize="end"
+      android:fontFamily="@font/font_family_bold"
+      android:gravity="center"
+      android:maxLines="1"
+      android:text="@string/v2_downloaded_files"
+      android:textColor="@color/style_color_text_primary"
+      android:textSize="20sp" />
+
+    <ImageView
+      android:id="@+id/hdrRight"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:background="@drawable/bg_v2_icon_btn"
+      android:padding="10dp"
+      android:src="@drawable/ic_v2_add"
+      android:tint="@color/style_color_primary"
+      android:contentDescription="@string/v2_cd_add" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="46dp"
+    android:layout_marginStart="12dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="12dp"
+    android:background="@drawable/bg_v2_segment"
+    android:orientation="horizontal"
+    android:padding="3dp">
+
+    <TextView
+      android:id="@+id/segActive"
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:background="@drawable/bg_v2_segment_item"
+      android:fontFamily="@font/font_family_semibold"
+      android:gravity="center"
+      android:text="@string/v2_seg_active"
+      android:textColor="@color/v2_seg_text"
+      android:textSize="15sp" />
+
+    <TextView
+      android:id="@+id/segDone"
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:background="@drawable/bg_v2_segment_item"
+      android:fontFamily="@font/font_family_semibold"
+      android:gravity="center"
+      android:text="@string/v2_seg_downloaded"
+      android:textColor="@color/v2_seg_text"
+      android:textSize="15sp" />
+  </LinearLayout>
+
+  <TextView
+    android:id="@+id/tvSort"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="12dp"
+    android:background="@drawable/bg_v2_pill"
+    android:drawablePadding="6dp"
+    android:drawableStart="@drawable/ic_v2_sort"
+    android:drawableTint="@color/style_color_primary"
+    android:fontFamily="@font/font_family_medium"
+    android:gravity="center_vertical"
+    android:paddingStart="12dp"
+    android:paddingTop="6dp"
+    android:paddingEnd="12dp"
+    android:paddingBottom="6dp"
+    android:textColor="@color/style_color_text_secondary"
+    android:textSize="13sp" />
+
+  <FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1">
+
+    <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/list"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:clipToPadding="false"
+      android:paddingStart="12dp"
+      android:paddingTop="10dp"
+      android:paddingEnd="12dp"
+      android:layoutAnimation="@anim/layout_list_enter"
+      android:paddingBottom="110dp" />
+
+    <LinearLayout
+      android:id="@+id/emptyBox"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:gravity="center_horizontal"
+      android:orientation="vertical"
+      android:visibility="gone">
+
+      <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieEmpty"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        app:lottie_loop="true" />
+
+      <TextView
+        android:id="@+id/tvEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_family_regular"
+        android:gravity="center"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:textColor="@color/style_color_text_secondary"
+        android:textSize="15sp" />
+    </LinearLayout>
+  </FrameLayout>
+</LinearLayout>

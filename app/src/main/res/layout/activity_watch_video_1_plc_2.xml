@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="@dimen/_35"
+  android:background="@color/color_background">
+
+  <ImageView
+    android:id="@+id/btnPlaybackToggle"
+    android:layout_width="@dimen/_30"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="@dimen/_5"
+    android:adjustViewBounds="true"
+    android:background="@drawable/bg_button_negative"
+    android:clickable="true"
+    android:importantForAccessibility="no"
+    android:padding="@dimen/_4"
+    android:src="@drawable/ic_playback_pause"
+    android:tint="@color/color_text_primary"
+    tools:ignore="UseAppTint,TouchTargetSizeCheck" />
+
+  <coreUtils.library.views.VideoSeekBar
+    android:id="@+id/seekPlaybackProgress"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_toLeftOf="@+id/tvPlaybackTime"
+    android:layout_toRightOf="@+id/btnPlaybackToggle"
+    android:max="100"
+    android:min="0"
+    app:vsb_bufferColor="#666666"
+    app:vsb_progressColor="#00BFFF"
+    app:vsb_thumbColor="#FFFFFF"
+    app:vsb_thumbPadding="@dimen/_5"
+    app:vsb_thumbSize="@dimen/_18"
+    app:vsb_trackColor="#222222"
+    app:vsb_trackHeight="@dimen/_6" />
+
+  <TextView
+    android:id="@+id/tvPlaybackTime"
+    style="@style/style_textviews"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_toLeftOf="@+id/btnVolumeToggle"
+    android:fontFamily="@font/font_family_medium"
+    android:text="@string/label_sample_00_00_00"
+    android:textColor="@color/color_text_primary"
+    tools:ignore="TextSizeCheck,VisualLintSystemUi" />
+
+  <ImageView
+    android:id="@+id/btnVolumeToggle"
+    android:layout_width="@dimen/_30"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_marginRight="@dimen/_5"
+    android:layout_toLeftOf="@+id/btnCaptionsToggle"
+    android:adjustViewBounds="true"
+    android:background="@drawable/bg_button_negative"
+    android:clickable="true"
+    android:importantForAccessibility="no"
+    android:padding="4.5dp"
+    android:src="@drawable/ic_volume_up"
+    android:tint="@color/color_text_primary"
+    tools:ignore="UseAppTint,TouchTargetSizeCheck" />
+
+  <ImageView
+    android:id="@+id/btnCaptionsToggle"
+    android:layout_width="@dimen/_30"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_marginRight="@dimen/_5"
+    android:layout_toLeftOf="@+id/btnFullscreenToggle"
+    android:adjustViewBounds="true"
+    android:background="@drawable/bg_button_negative"
+    android:clickable="true"
+    android:importantForAccessibility="no"
+    android:padding="4.5dp"
+    android:src="@drawable/ic_closed_caption_disabled"
+    android:tint="@color/color_text_primary"
+    tools:ignore="UseAppTint,TouchTargetSizeCheck" />
+
+  <ImageView
+    android:id="@+id/btnFullscreenToggle"
+    android:layout_width="@dimen/_30"
+    android:layout_height="match_parent"
+    android:layout_alignParentRight="true"
+    android:layout_centerVertical="true"
+    android:layout_marginRight="@dimen/_5"
+    android:adjustViewBounds="true"
+    android:background="@drawable/bg_button_negative"
+    android:clickable="true"
+    android:importantForAccessibility="no"
+    android:padding="@dimen/_5"
+    android:src="@drawable/ic_fullscreen"
+    android:tint="@color/color_text_primary"
+    tools:ignore="UseAppTint,TouchTargetSizeCheck" />
+
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_2"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/bg_shadow_border_2" />
+
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_2"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/bg_shadow_border" />
+
+</RelativeLayout>

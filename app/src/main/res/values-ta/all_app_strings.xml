@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="label_select_language">மொழியைத் தேர்ந்தெடுக்கவும்</string>
+  <string name="title_skip_for_now">இப்போதைக்குத் தவிர்க்கவும்</string>
+  <string name="subtext_vidflow_downloader_tagline">பதிவிறக்கவும், பார்க்கவும் மற்றும் நண்பர்களுடன் பகிரவும்</string>
+  <string name="subtext_app_splash_credit">இந்தியாவில் ❤️ உடன் உருவாக்கப்பட்டது 🇮🇳</string>
+  <string name="text_send_feedback_msg_at_homepage"><b>இன்றைக்கு அவ்வளவுதான்.</b> ஆலோசனைகள் அல்லது கருத்துகள் உள்ளதா? நாங்கள் உங்களிடமிருந்து கேட்க விரும்புகிறோம். <a>செய்தி அனுப்ப இங்கே கிளிக் செய்யவும்.</a></string>
+
+  <string name="label_unlock_requires">திறக்கத் தேவைப்படுகிறது</string>
+  <string name="label_setup_device_password">முதலில் சாதனப் பூட்டை அமைக்கவும்</string>
+  <string name="hint_authentication_failed">அங்கீகாரம் தோல்வியடைந்தது அல்லது ரத்து செய்யப்பட்டது</string>
+  <string name="label_cancel">ரத்துசெய்</string>
+
+  <string name="label_no">இல்லை</string>
+  <string name="label_performed">செய்யப்பட்டது</string>
+  <string name="label_not_performed">செய்யப்படவில்லை</string>
+  <string name="label_click_here_to_open">திறக்க இங்கே கிளிக் செய்யவும்</string>
+  <string name="label_sounds">ஒலிகள்</string>
+  <string name="label_archives">காப்பகங்கள்</string>
+  <string name="label_programs">நிரல்கள்</string>
+  <string name="label_videos">வீடியோக்கள்</string>
+  <string name="label_documents">ஆவணங்கள்</string>
+  <string name="label_images">படங்கள்</string>
+  <string name="label_others">மற்றவை</string>
+
+  <string name="label_mobile_user_agent">மொபைல் பயனர் முகவர்</string>
+  <string name="label_unknown">தெரியாதது</string>
+  <string name="label_sharing_media_file">ஊடகக் கோப்பு பகிரப்படுகிறது…</string>
+
+  <string name="label_send_feedback">கருத்து</string>
+  <string name="subtitle_feedback">VidFlow-வை மேம்படுத்த எங்களுக்கு உதவுங்கள் 💙</string>
+  <string name="label_experience">உங்கள் அனுபவம் எப்படி இருந்தது?</string>
+  <string name="label_excellent">மிகவும் நன்று</string>
+  <string name="label_good">நன்று</string>
+  <string name="label_average">சராசரி</string>
+  <string name="label_poor">மோசம்</string>
+  <string name="label_amazing">அற்புதம்</string>
+  <string name="label_subject">தலைப்பு</string>
+  <string name="hint_feedback_subject">இது எதைப் பற்றியது என்பதைச் சுருக்கமாகச் சொல்லுங்கள்</string>
+  <string name="label_describe_feedback">உங்கள் கருத்தை விவரிக்கவும்</string>
+  <string name="hint_describe_feedback">நாங்கள் புரிந்துகொண்டு மேம்படுத்த எங்களுக்கு விரிவாகச் சொல்லுங்கள்…</string>
+  <string name="label_attach_screenshot">ஸ்கிரீன்ஷாட்டை இணைக்கவும் (விருப்பமானது)</string>
+  <string name="label_upload_image">படத்தைப் பதிவேற்றவும்</string>
+  <string name="label_upload_image_hint">PNG, JPG 5MB வரை</string>
+  <string name="label_email">மின்னஞ்சல் (விருப்பமானது)</string>
+  <string name="hint_feedback_email">உங்கள் மின்னஞ்சல் முகவரியை உள்ளிடவும்</string>
+  <string name="subtext_email">தேவைப்பட்டால் நாங்கள் உங்களைத் தொடர்புகொள்வோம்</string>
+  <string name="btn_send_feedback">கருத்தை அனுப்பவும்</string>
+  <string name="footer_feedback_safe">உங்கள் கருத்து 100% பாதுகாப்பானது மற்றும் ரகசியமானது</string>
+  <string name="title_zero_slash_five_hundred">0/500</string>
+</resources>

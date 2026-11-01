@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="label_select_language">ഭാഷ തിരഞ്ഞെടുക്കുക</string>
+  <string name="title_skip_for_now">ഇപ്പോൾ ഒഴിവാക്കുക</string>
+  <string name="subtext_vidflow_downloader_tagline">ഡൗൺലോഡ് ചെയ്യുക, കാണുക, സുഹൃത്തുക്കളുമായി പങ്കിടുക</string>
+  <string name="subtext_app_splash_credit">ഇന്ത്യയിൽ ❤️ ലൂടെ നിർമ്മിച്ചത് 🇮🇳</string>
+  <string name="text_send_feedback_msg_at_homepage"><b>ഇന്നത്തേക്ക് ഇത്രമാത്രം.</b> നിർദ്ദേശങ്ങളോ ഫീഡ്‌ബാക്കോ ഉണ്ടോ? നിങ്ങളിൽ നിന്ന് കേൾക്കാൻ ഞങ്ങൾ ആഗ്രഹിക്കുന്നു. <a>സന്ദേശം അയക്കാൻ ഇവിടെ ക്ലിക്ക് ചെയ്യുക.</a></string>
+
+  <string name="label_unlock_requires">അൺലോക്ക് ചെയ്യാൻ ആവശ്യമാണ്</string>
+  <string name="label_setup_device_password">ആദ്യം ഉപകരണം ലോക്ക് ചെയ്യുക</string>
+  <string name="hint_authentication_failed">അംഗീകാരം പരാജയപ്പെട്ടു അല്ലെങ്കിൽ റദ്ദാക്കി</string>
+  <string name="label_cancel">റദ്ദാക്കുക</string>
+
+  <string name="label_no">അല്ല</string>
+  <string name="label_performed">ചെയ്തു</string>
+  <string name="label_not_performed">ചെയ്തില്ല</string>
+  <string name="label_click_here_to_open">തുറക്കാൻ ഇവിടെ ക്ലിക്ക് ചെയ്യുക</string>
+  <string name="label_sounds">ശബ്ദങ്ങൾ</string>
+  <string name="label_archives">ആർക്കൈവുകൾ</string>
+  <string name="label_programs">പ്രോഗ്രാമുകൾ</string>
+  <string name="label_videos">വീഡിയോകൾ</string>
+  <string name="label_documents">പ്രമാണങ്ങൾ</string>
+  <string name="label_images">ചിത്രങ്ങൾ</string>
+  <string name="label_others">മറ്റുള്ളവ</string>
+
+  <string name="label_mobile_user_agent">മൊബൈൽ യൂസർ ഏജന്റ്</string>
+  <string name="label_unknown">അജ്ഞാതം</string>
+  <string name="label_sharing_media_file">മീഡിയ ഫയൽ പങ്കിടുന്നു…</string>
+
+  <string name="label_send_feedback">അഭിപ്രായം</string>
+  <string name="subtitle_feedback">VidFlow മെച്ചപ്പെടുത്താൻ ഞങ്ങളെ സഹായിക്കൂ 💙</string>
+  <string name="label_experience">നിങ്ങളുടെ അനുഭവം എങ്ങനെയായിരുന്നു?</string>
+  <string name="label_excellent">മികച്ചത്</string>
+  <string name="label_good">നല്ലത്</string>
+  <string name="label_average">ശരാശരി</string>
+  <string name="label_poor">മോശം</string>
+  <string name="label_amazing">അത്ഭുതകരം</string>
+  <string name="label_subject">വിഷയം</string>
+  <string name="hint_feedback_subject">ഇത് എന്തിനെക്കുറിച്ചാണെന്ന് ഞങ്ങളോട് ചുരുക്കത്തിൽ പറയുക</string>
+  <string name="label_describe_feedback">നിങ്ങളുടെ അഭിപ്രായം വിവരിക്കുക</string>
+  <string name="hint_describe_feedback">ഞങ്ങൾക്ക് മനസ്സിലാക്കാനും മെച്ചപ്പെടുത്താനും വിശദമായി പറയുക…</string>
+  <string name="label_attach_screenshot">സ്ക്രീൻഷോട്ട് അറ്റാച്ച് ചെയ്യുക (ഓപ്ഷണൽ)</string>
+  <string name="label_upload_image">ചിത്രം അപ്‌ലോഡ് ചെയ്യുക</string>
+  <string name="label_upload_image_hint">PNG, JPG 5MB വരെ</string>
+  <string name="label_email">ഇമെയിൽ (ഓപ്ഷണൽ)</string>
+  <string name="hint_feedback_email">നിങ്ങളുടെ ഇമെയിൽ വിലാസം നൽകുക</string>
+  <string name="subtext_email">ആവശ്യമെങ്കിൽ ഞങ്ങൾ നിങ്ങളെ ബന്ധപ്പെടും</string>
+  <string name="btn_send_feedback">അഭിപ്രായം അയക്കുക</string>
+  <string name="footer_feedback_safe">നിങ്ങളുടെ അഭിപ്രായം 100% സുരക്ഷിതവും രഹസ്യവുമാണ്</string>
+  <string name="title_zero_slash_five_hundred">0/500</string>
+</resources>

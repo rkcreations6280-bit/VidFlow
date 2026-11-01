@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/style_color_background">
+
+  <androidx.fragment.app.FragmentContainerView
+    android:id="@+id/fragmentContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:layout="@layout/frag_homepage_1" />
+
+  <LinearLayout
+    android:id="@+id/bottomNavContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:orientation="vertical"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp"
+    android:paddingBottom="8dp">
+
+    <!-- Mini player: hidden until the custom player is connected. -->
+    <include
+      android:id="@+id/bottomMiniPlayer"
+      layout="@layout/activity_main_1_min_player_1"
+      android:visibility="gone" />
+
+    <include
+      android:id="@+id/bottomTabs"
+      layout="@layout/activity_main_1_tab_1" />
+  </LinearLayout>
+
+</FrameLayout>

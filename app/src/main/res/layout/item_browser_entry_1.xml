@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/itemRoot"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_marginBottom="6dp"
+  android:background="@drawable/bg_v2_item"
+  android:clickable="true"
+  android:focusable="true"
+  android:gravity="center_vertical"
+  android:orientation="horizontal"
+  android:padding="10dp">
+
+  <TextView
+    android:id="@+id/tvLetter"
+    android:layout_width="38dp"
+    android:layout_height="38dp"
+    android:background="@drawable/bg_v2_icon_btn"
+    android:fontFamily="@font/font_family_bold"
+    android:gravity="center"
+    android:textColor="@color/style_color_primary"
+    android:textSize="16sp" />
+
+  <LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <TextView
+      android:id="@+id/tvTitle"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:ellipsize="end"
+      android:fontFamily="@font/font_family_semibold"
+      android:maxLines="1"
+      android:textColor="@color/style_color_text_primary"
+      android:textSize="14sp" />
+
+    <TextView
+      android:id="@+id/tvUrl"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:ellipsize="end"
+      android:fontFamily="@font/font_family_regular"
+      android:maxLines="1"
+      android:textColor="@color/style_color_text_tertiary"
+      android:textSize="12sp" />
+  </LinearLayout>
+
+  <ImageView
+    android:id="@+id/btnAction"
+    android:layout_width="36dp"
+    android:layout_height="36dp"
+    android:padding="9dp"
+    android:src="@drawable/ic_v2_close"
+    android:tint="@color/style_color_text_secondary" />
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2024 VidFlow. All rights reserved.
+  ~
+  ~ Application dimension resources in dp (density-independent pixels).
+  ~ These values define spacing, padding, margins, and layout dimensions
+  ~ used consistently across the app.
+  ~
+  -->
+<resources>
+  <!-- Smallest dimension (8dp) - Used for micro spacing -->
+  <dimen name="smallest_text_size">8dp</dimen>
+
+  <!-- Very small (9dp) - Used for tight spacing between elements -->
+  <dimen name="smaller_text_size">9dp</dimen>
+
+  <!-- Small variant (10dp) - Alternative small spacing -->
+  <dimen name="small_text_size_v2">10dp</dimen>
+
+  <!-- Standard small (11dp) - Used for compact margins/paddings -->
+  <dimen name="small_text_size">11dp</dimen>
+
+  <!-- Message/body (12dp) - Used for dialog message spacing -->
+  <dimen name="message_text_size">12dp</dimen>
+
+  <!-- Normal (14dp) - Standard spacing for most UI elements -->
+  <dimen name="normal_text_size">14dp</dimen>
+
+  <!-- Sub heading (16dp) - Section header spacing -->
+  <dimen name="sub_heading_text_size">16dp</dimen>
+
+  <!-- Title (18dp) - Screen title spacing -->
+  <dimen name="title_text_size">18dp</dimen>
+
+  <!-- Extra large (22dp) - Large element spacing -->
+  <dimen name="extra_large_text_size">22dp</dimen>
+
+  <!-- Large (25dp) - Maximum spacing for prominent elements -->
+  <dimen name="large_text_size">25dp</dimen>
+</resources>
