@@ -26,15 +26,17 @@ The whole app is written in **Java** and built on a phone with the **CodeAssist*
 
 ## Screenshots
 
-> Add your screenshots to a `screenshots/` folder and update the file names below.
-
 | Home | Download popup | Player |
 |:---:|:---:|:---:|
-| ![Home](screenshots/home.png) | ![Download popup](screenshots/download.png) | ![Player](screenshots/player.png) |
+| ![Home](screenshots/home.png) | ![Download popup](screenshots/download popup.png) | ![Player](screenshots/player.png) |
 
 | Browser | Downloads | Tablet / landscape |
 |:---:|:---:|:---:|
 | ![Browser](screenshots/browser.png) | ![Downloads](screenshots/downloads.png) | ![Tablet](screenshots/tablet.png) |
+
+| Download |
+|:---:|
+| ![Download](screenshots/Download.png) |
 
 ## Features
 
