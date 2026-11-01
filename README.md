@@ -28,7 +28,11 @@ The whole app is written in **Java** and built on a phone with the **CodeAssist*
 
 | Home | Download popup | Player |
 |:---:|:---:|:---:|
+<<<<<<< HEAD
+| ![Home](screenshots/home.png) | ![Download Popup](screenshots/download Popup.png) | ![Player](screenshots/player.png) |
+=======
 | ![Home](screenshots/home.png) | ![Download popup](screenshots/download Popup.png) | ![Player](screenshots/player.png) |
+>>>>>>> branch 'main' of https://github.com/rkcreations6280-bit/VidFlow.git
 
 | Browser | Downloads | Tablet / landscape |
 |:---:|:---:|:---:|
